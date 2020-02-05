@@ -26,15 +26,30 @@ import com.jgoodies.forms.layout.ColumnSpec;
 import com.jgoodies.forms.layout.FormSpecs;
 import com.jgoodies.forms.layout.RowSpec;
 import java.awt.Insets;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.Timer;
+import java.util.TimerTask;
+
 import javax.swing.JTable;
 import javax.swing.JComboBox;
 import javax.swing.JSplitPane;
 import java.awt.Button;
+import javax.swing.JMenuItem;
+import javax.swing.JSeparator;
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import javax.swing.JScrollPane;
 
+/**
+ * 
+ * @author lucia calzado
+ *
+ */
 public class VentanaPrincipal extends JFrame {
-	private JTable tabla2;
 	private JTable tabla3;
-	private JTable table;
+	private JTable tabla2;
+	private JTable tabla1;
 
 	/**
 	 * Launch the application.
@@ -65,41 +80,116 @@ public class VentanaPrincipal extends JFrame {
 
 		JMenu menuArchivo = new JMenu("Archivo");
 		menuBar.add(menuArchivo);
+		
+		JMenuItem menuGuardar = new JMenuItem("Guardar");
+		menuArchivo.add(menuGuardar);
+		
+		JMenuItem menuExportar = new JMenuItem("Exportar...");
+		menuArchivo.add(menuExportar);
+		
+		JSeparator separator_1 = new JSeparator();
+		menuArchivo.add(separator_1);
+		
+		JMenuItem menuSalir = new JMenuItem("Salir");
+		menuSalir.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent arg0) {
+				VentanaPrincipal.this.dispose();
+			}
+		});
+		menuArchivo.add(menuSalir);
 
 		JMenu menuEditar = new JMenu("Editar");
 		menuBar.add(menuEditar);
+		
+		JMenu submenuCursos = new JMenu("Cursos");
+		menuEditar.add(submenuCursos);
+		
+		JMenuItem menuAddCurso = new JMenuItem("Añadir curso...");
+		submenuCursos.add(menuAddCurso);
+		
+		JMenuItem menuEditarCurso = new JMenuItem("Editar curso...");
+		submenuCursos.add(menuEditarCurso);
+		
+		JMenu submenuAsignaturas = new JMenu("Asignaturas");
+		menuEditar.add(submenuAsignaturas);
+		
+		JMenuItem menuAddAsignatura = new JMenuItem("Añadir asignatura...");
+		submenuAsignaturas.add(menuAddAsignatura);
+		
+		JMenuItem menuEditarAsignatura = new JMenuItem("Editar asignatura...");
+		submenuAsignaturas.add(menuEditarAsignatura);
+		
+		JMenu submenuAlumnos = new JMenu("Alumnos");
+		menuEditar.add(submenuAlumnos);
+		
+		JMenuItem menuAddAlumno = new JMenuItem("Añadir alumno...");
+		submenuAlumnos.add(menuAddAlumno);
+		
+		JMenuItem menuEditarAlumno = new JMenuItem("Editar alumno...");
+		submenuAlumnos.add(menuEditarAlumno);
+		
+		JMenu submenuCompeten = new JMenu("Competencias");
+		menuEditar.add(submenuCompeten);
+		
+		JMenuItem menuAddCompetencia = new JMenuItem("Añadir competencia...");
+		submenuCompeten.add(menuAddCompetencia);
+		
+		JMenuItem menuEditarCompetencia = new JMenuItem("Editar competencia...");
+		submenuCompeten.add(menuEditarCompetencia);
+		
+		JSeparator separator = new JSeparator();
+		menuEditar.add(separator);
+		
+		JMenu submenuTabla = new JMenu("Tabla");
+		menuEditar.add(submenuTabla);
+		
+		JMenuItem menuAddTabla = new JMenuItem("Añadir tabla...");
+		submenuTabla.add(menuAddTabla);
 
 		JMenu menuVista = new JMenu("Vista");
 		menuBar.add(menuVista);
+		
+		JMenuItem menuVerColores = new JMenuItem("Ver colores en la tabla");
+		menuVista.add(menuVerColores);
 
 		JMenu menuAyuda = new JMenu("Ayuda");
 		menuBar.add(menuAyuda);
+		
+		JMenuItem menuVerAyuda = new JMenuItem("Ver cuadros de ayuda");
+		menuAyuda.add(menuVerAyuda);
+		
+		JMenuItem menuManualAyuda = new JMenuItem("Manual de ayuda");
+		menuAyuda.add(menuManualAyuda);
+		
+		JMenuItem menuAcercaDe = new JMenuItem("Acerca de...");
+		menuAyuda.add(menuAcercaDe);
 		GridBagLayout gridBagLayout = new GridBagLayout();
-		gridBagLayout.columnWidths = new int[]{35, 73, 114, 160, 270, 0, 150, 163, 110, 35}; //ancho de cada columna
-		gridBagLayout.rowHeights = new int[]{15, 30, 25, 25, 20, 31, 33, 34, 45, 35};
-		gridBagLayout.columnWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 1.0, 0.0, 0.0};
-		gridBagLayout.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0};
+		gridBagLayout.columnWidths = new int[]{35, 73, 114, 160, 232, 50, 0, 87, 163, 52, 110, 35}; //ancho de cada columna
+		gridBagLayout.rowHeights = new int[]{15, 30, 25, 25, 41, 15, 22, 22, 34, 45, 35};
+		gridBagLayout.columnWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0};
+		gridBagLayout.rowWeights = new double[]{0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 10.0, 0.0};
 		getContentPane().setLayout(gridBagLayout);
 		
 		/**
 		 * Márgenes izquierda y derecha: 35
 		 */
 		
-		JLabel label3 = new JLabel("Bienvenid@, Luc\u00EDa");
+		JLabel label3 = new JLabel("Bienvenid@, Lucía");
 		GridBagConstraints gbc_label3 = new GridBagConstraints();
+		gbc_label3.anchor = GridBagConstraints.WEST;
 		gbc_label3.insets = new Insets(0, 0, 5, 5);
-		gbc_label3.gridx = 1;
+		gbc_label3.gridx = 2;
 		gbc_label3.gridy = 1;
 		getContentPane().add(label3, gbc_label3);
 		
-		JLabel labelStatic3 = new JLabel("\u00BFQuiere seguir por donde lo dej\u00F3?");
+		JLabel labelStatic3 = new JLabel("¿Quiere seguir por donde lo dejó?");
 		GridBagConstraints gbc_labelStatic3 = new GridBagConstraints();
 		gbc_labelStatic3.insets = new Insets(0, 0, 5, 5);
 		gbc_labelStatic3.gridx = 4;
 		gbc_labelStatic3.gridy = 1;
 		getContentPane().add(labelStatic3, gbc_labelStatic3);
 		
-		JLabel labelStatic4 = new JLabel("Estas son las asignaturas que m\u00E1s frecuenta:");
+		JLabel labelStatic4 = new JLabel("Estas son las asignaturas que más frecuenta:");
 		GridBagConstraints gbc_labelStatic4 = new GridBagConstraints();
 		gbc_labelStatic4.gridwidth = 2;
 		gbc_labelStatic4.insets = new Insets(0, 0, 5, 5);
@@ -108,9 +198,15 @@ public class VentanaPrincipal extends JFrame {
 		getContentPane().add(labelStatic4, gbc_labelStatic4);
 		
 		JLabel labelFecha = new JLabel("<fecha>");
-		GridBagConstraints gbc_labelFecha = new GridBagConstraints();
+		//poner fecha de hoy
+		SimpleDateFormat formatter = new SimpleDateFormat("dd/MM/yyyy");  
+	    Date date = new Date();
+	    labelFecha.setText(formatter.format(date));
+		
+	    GridBagConstraints gbc_labelFecha = new GridBagConstraints();
+		gbc_labelFecha.anchor = GridBagConstraints.WEST;
 		gbc_labelFecha.insets = new Insets(0, 0, 5, 5);
-		gbc_labelFecha.gridx = 1;
+		gbc_labelFecha.gridx = 2;
 		gbc_labelFecha.gridy = 2;
 		getContentPane().add(labelFecha, gbc_labelFecha);
 		
@@ -136,11 +232,23 @@ public class VentanaPrincipal extends JFrame {
 		getContentPane().add(labelAsignatura2, gbc_labelAsignatura2);
 		
 		
-		
 		JLabel labelHora = new JLabel("<hora>");
+		labelHora.setSize(200, 100);
+		//timer para mostrar la hora actual que se actualiza sola
+        Timer timer = new Timer();
+        timer.scheduleAtFixedRate(new TimerTask() {
+            @Override
+            public void run() {
+                String t = new SimpleDateFormat("HH:mm:ss").format(new Date());
+                labelHora.setText(t);
+            }
+        }, 0, 1000);
+        
+        
 		GridBagConstraints gbc_labelHora = new GridBagConstraints();
+		gbc_labelHora.anchor = GridBagConstraints.WEST;
 		gbc_labelHora.insets = new Insets(0, 0, 5, 5);
-		gbc_labelHora.gridx = 1;
+		gbc_labelHora.gridx = 2;
 		gbc_labelHora.gridy = 3;
 		getContentPane().add(labelHora, gbc_labelHora);
 		
@@ -181,52 +289,95 @@ public class VentanaPrincipal extends JFrame {
 		JTabbedPane tabbedPaneTabla = new JTabbedPane(JTabbedPane.TOP);
 		GridBagConstraints gbc_tabbedPaneTabla = new GridBagConstraints();
 		gbc_tabbedPaneTabla.gridheight = 2;
-		gbc_tabbedPaneTabla.gridwidth = 7;
+		gbc_tabbedPaneTabla.gridwidth = 9;
 		gbc_tabbedPaneTabla.insets = new Insets(0, 0, 5, 5);
 		gbc_tabbedPaneTabla.fill = GridBagConstraints.BOTH;
 		gbc_tabbedPaneTabla.gridx = 1;
-		gbc_tabbedPaneTabla.gridy = 7;
+		gbc_tabbedPaneTabla.gridy = 8;
 		getContentPane().add(tabbedPaneTabla, gbc_tabbedPaneTabla);
 		
+		//Primera tabla
+		String [] columnNames = {"Nombre y apellidos",
+                "Nota clase",
+                "Trabajo 1",
+                "Examen 1",
+                "Examen 2"};
+		Object[][] data = {
+			    {"Lightweaver Kholin", 5, 3, 10, 5},
+			    {"Geadalu Nyvrant", 5, 7, 8, 7},
+			    {"Alleria Brisaveloz", 5, 2, 8, 1},
+			    {"Varian Wrynn", 6, 9, 10, 8},
+			};
+		
+		tabla1 = new JTable(data, columnNames);
 		JPanel panel = new JPanel();
+		
 		tabbedPaneTabla.addTab("1º Trimestre", null, panel, null);
 		panel.setLayout(new BorderLayout(0, 0));
+		JScrollPane scrollPane = new JScrollPane(tabla1);
+		panel.add(scrollPane);
 		
-		table = new JTable();
-		panel.add(table, BorderLayout.CENTER);
-		
-		Button button = new Button("A\u00F1adir columna");
-		panel.add(button, BorderLayout.EAST);
-		
+		Button botonAddColumna = new Button("Añadir columna");
+		panel.add(botonAddColumna, BorderLayout.EAST);
 		
 		
+		//Segunda tabla
+		String [] columnNames2 = {"Nombre y apellidos",
+                "Nota clase",
+                "Trabajo 1",
+                "Examen 1",
+                "Examen 2"};
+		Object[][] data2 = {
+			    {"Lightweaver Kholin", 5, 3, 10, 5},
+			    {"Geadalu Nyvrant", 5, 7, 8, 7},
+			    {"Alleria Brisaveloz", 5, 2, 8, 1},
+			    {"Varian Wrynn", 6, 9, 10, 8},
+			};
+		
+		tabla2 = new JTable(data2, columnNames2);
 		JPanel panel2 = new JPanel();
+		
 		tabbedPaneTabla.addTab("2º Trimestre", null, panel2, null);
 		panel2.setLayout(new BorderLayout(0, 0));
+		JScrollPane scrollPane2 = new JScrollPane(tabla2);
+		panel2.add(scrollPane2);
 		
-		tabla2 = new JTable();
-		panel2.add(tabla2, BorderLayout.CENTER);
+		Button botonAddColumna2 = new Button("Añadir columna");
+		panel2.add(botonAddColumna2, BorderLayout.EAST);
 		
-		Button button_1 = new Button("Añadir columna");
-		panel2.add(button_1, BorderLayout.EAST);
 		
+		//Tercera tabla
+		String [] columnNames3 = {"Nombre y apellidos",
+                "Nota clase",
+                "Trabajo 1",
+                "Examen 1",
+                "Examen 2"};
+		Object[][] data3 = {
+			    {"Lightweaver Kholin", 5, 6, 19, 4},
+			    {"Geadalu Nyvrant", 1, 2, 3, 4},
+			    {"Alleria Brisaveloz", 6, 7, 8, 2},
+			    {"Varian Wrynn", 6.6, 7.1, 9.4, 7.6},
+			};
+		
+		tabla3 = new JTable(data3, columnNames3);
 		JPanel panel3 = new JPanel();
+		
 		tabbedPaneTabla.addTab("3º Trimestre", null, panel3, null);
 		panel3.setLayout(new BorderLayout(0, 0));
+		JScrollPane scrollPane3 = new JScrollPane(tabla3);
+		panel3.add(scrollPane3);
 		
-		tabla3 = new JTable();
-		panel3.add(tabla3, BorderLayout.CENTER);
-		
-		Button button_2 = new Button("Añadir columna");
-		panel3.add(button_2, BorderLayout.EAST);
+		Button botonAddColumna3 = new Button("Añadir columna");
+		panel3.add(botonAddColumna3, BorderLayout.EAST);
 		
 		JLabel labelAsignatura = new JLabel("Matemáticas");
 		labelAsignatura.setFont(new Font("Tahoma", Font.PLAIN, 17));
 		GridBagConstraints gbc_labelAsignatura = new GridBagConstraints();
 		gbc_labelAsignatura.anchor = GridBagConstraints.NORTHEAST;
 		gbc_labelAsignatura.insets = new Insets(0, 0, 5, 5);
+		gbc_labelAsignatura.gridwidth = 3;
 		gbc_labelAsignatura.gridx = 7;
-		gbc_labelAsignatura.gridy = 7;
+		gbc_labelAsignatura.gridy = 8;
 		getContentPane().add(labelAsignatura, gbc_labelAsignatura);
 	}
 }
