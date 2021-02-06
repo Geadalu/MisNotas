@@ -1,0 +1,429 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{oetiker14}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=da126d282a6ed41d6946f64b08dd3300}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={Tobias\bibnamedelima Oetiker},
+           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{da126d282a6ed41d6946f64b08dd3300}
+      \strng{fullhash}{da126d282a6ed41d6946f64b08dd3300}
+      \strng{bibnamehash}{da126d282a6ed41d6946f64b08dd3300}
+      \strng{authorbibnamehash}{da126d282a6ed41d6946f64b08dd3300}
+      \strng{authornamehash}{da126d282a6ed41d6946f64b08dd3300}
+      \strng{authorfullhash}{da126d282a6ed41d6946f64b08dd3300}
+      \field{sortinit}{a}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{La introducción no-tan-corta a {\LaTeX2e}}
+      \field{version}{5.03}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://www.ctan.org/tex-archive/info/lshort/spanish/
+      \endverb
+      \verb{url}
+      \verb http://www.ctan.org/tex-archive/info/lshort/spanish/
+      \endverb
+    \endentry
+    \entry{borbon17}{book}{}
+      \name{author}{2}{}{%
+        {{hash=128577e007333d01560d4fa85005f54a}{%
+           family={Borbón},
+           familyi={B\bibinitperiod},
+           given={Alexánder},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9752329c44929936c0aeed3d6ececd31}{%
+           family={Mora},
+           familyi={M\bibinitperiod},
+           given={Walter},
+           giveni={W\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f4c2ba780abb4766300b7b1edabfebe6}{%
+           family={Revista\bibnamedelimb Digital\bibnamedelima Matemática},
+           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Educación\bibnamedelimb e\bibnamedelima Internet},
+           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      }
+      \list{origlanguage}{1}{%
+        {Spanish}%
+      }
+      \list{publisher}{1}{%
+        {Instituto Tecnológico de Costa Rica}%
+      }
+      \strng{namehash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{fullhash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{bibnamehash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{authorbibnamehash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{authornamehash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{authorfullhash}{0ff6733abd29dac9557b6646124cf022}
+      \strng{editorbibnamehash}{f4c2ba780abb4766300b7b1edabfebe6}
+      \strng{editornamehash}{f4c2ba780abb4766300b7b1edabfebe6}
+      \strng{editorfullhash}{f4c2ba780abb4766300b7b1edabfebe6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-9977-66-227-5}
+      \field{title}{Edición de textos científicos con {\LaTeX{}}. Composición, gráficos, diseño editorial y presentaciones beamer}
+      \field{year}{2017}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://tecdigital.tec.ac.cr/revistamatematica/Libros/LATEX/LaTeX_2013.pdf
+      \endverb
+      \verb{url}
+      \verb https://tecdigital.tec.ac.cr/revistamatematica/Libros/LATEX/LaTeX_2013.pdf
+      \endverb
+    \endentry
+    \entry{cascales00}{book}{}
+      \name{author}{2}{}{%
+        {{hash=6922c15dbbe79d9bed5e8abd017ec5e3}{%
+           family={Caballero\bibnamedelima Muñoz-Reja},
+           familyi={C\bibinitperiod\bibinitdelim M\bibinithyphendelim R\bibinitperiod},
+           given={Ismael},
+           giveni={I\bibinitperiod}}}%
+        {{hash=0efbaa241c209ef4cd032ea665454b2c}{%
+           family={Pérez\bibnamedelimb del\bibnamedelima Castillo},
+           familyi={P\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={Ricardo},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{publisher}{1}{%
+        {Grado en Ingeniería Informática (Ciudad Real) - UCLM}%
+      }
+      \strng{namehash}{4cd557a3788ac37a9e077001ca1edd06}
+      \strng{fullhash}{4cd557a3788ac37a9e077001ca1edd06}
+      \strng{bibnamehash}{4cd557a3788ac37a9e077001ca1edd06}
+      \strng{authorbibnamehash}{4cd557a3788ac37a9e077001ca1edd06}
+      \strng{authornamehash}{4cd557a3788ac37a9e077001ca1edd06}
+      \strng{authorfullhash}{4cd557a3788ac37a9e077001ca1edd06}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{spanish}
+      \field{title}{Apuntes de Ingeniería del Software II}
+      \field{year}{2019}
+      \true{nocite}
+    \endentry
+    \entry{cascales03}{book}{}
+      \name{author}{2}{}{%
+        {{hash=35143fc928260fc4c4e8b3a5cc6385ba}{%
+           family={Cascales},
+           familyi={C\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=b13f9ee6044e4c43d8ba55d08d423281}{%
+           family={Lucas},
+           familyi={L\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \strng{fullhash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \strng{bibnamehash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \strng{authorbibnamehash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \strng{authornamehash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \strng{authorfullhash}{a97ac497188c22caac3cc3bb5d4a8208}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{9788420537795}
+      \field{langid}{spanish}
+      \field{title}{El Libro de {\LaTeX}}
+      \field{year}{2005}
+      \true{nocite}
+    \endentry
+    \entry{goos04}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cea30c44975fa955530d08d547542cbe}{%
+           family={Goossens},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=5c00b9ef0c08e422be978eb73911c935}{%
+           family={Mittelbach},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+        {{hash=e1d742d7d142463bb1f5e60a0d317ba1}{%
+           family={Samarin},
+           familyi={S\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Reading, MA}%
+      }
+      \strng{namehash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{fullhash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{bibnamehash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{authorbibnamehash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{authornamehash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{authorfullhash}{96381a4771a9a0efa13abfbe8613ee89}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{title}{The {\LaTeX{}} companion}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{goos07}{book}{}
+      \name{author}{3}{}{%
+        {{hash=cea30c44975fa955530d08d547542cbe}{%
+           family={Goossens},
+           familyi={G\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=9505fd7ab47874950a19ce3799ed90a4}{%
+           family={Rahtz},
+           familyi={R\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=5c00b9ef0c08e422be978eb73911c935}{%
+           family={Mittelbach},
+           familyi={M\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley Reading, MA}%
+      }
+      \strng{namehash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \strng{fullhash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \strng{bibnamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \strng{authorbibnamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \strng{authornamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \strng{authorfullhash}{e6a193e6d5538e88a73a51bb1ac528e9}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{title}{The {\LaTeX{}} graphics companion}
+      \field{year}{2007}
+      \true{nocite}
+    \endentry
+    \entry{kopka04}{book}{}
+      \name{author}{2}{}{%
+        {{hash=a5274189f6c50d5683a7965c541183b7}{%
+           family={Kopka},
+           familyi={K\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=627e491b34b4b8fd0c7869892827c596}{%
+           family={Daly},
+           familyi={D\bibinitperiod},
+           given={{P.W.}},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{69b82668922b197cc58c729dd3b8415e}
+      \strng{fullhash}{69b82668922b197cc58c729dd3b8415e}
+      \strng{bibnamehash}{69b82668922b197cc58c729dd3b8415e}
+      \strng{authorbibnamehash}{69b82668922b197cc58c729dd3b8415e}
+      \strng{authornamehash}{69b82668922b197cc58c729dd3b8415e}
+      \strng{authorfullhash}{69b82668922b197cc58c729dd3b8415e}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{langid}{english}
+      \field{title}{A guide to {\LaTeX}}
+      \field{year}{2004}
+      \true{nocite}
+    \endentry
+    \entry{lamport94}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ef82223e035dbb62f84cb1c0782df38c}{%
+           family={Lamport},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \list{publisher}{1}{%
+        {Addison-Wesley}%
+      }
+      \strng{namehash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{fullhash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{bibnamehash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{authorbibnamehash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{authornamehash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{authorfullhash}{ef82223e035dbb62f84cb1c0782df38c}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{title}{{\LaTeX}: A document preparation system}
+      \field{year}{1994}
+      \true{nocite}
+    \endentry
+    \entry{salido10}{online}{}
+      \name{author}{1}{}{%
+        {{hash=52a455f5fbcad98e21de0712c6fe35b1}{%
+           family={Salido},
+           familyi={S\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \list{organization}{1}{%
+        {Universidad de Castilla-La Mancha}%
+      }
+      \strng{namehash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \strng{fullhash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \strng{bibnamehash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \strng{authorbibnamehash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \strng{authornamehash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \strng{authorfullhash}{52a455f5fbcad98e21de0712c6fe35b1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Apuntes de la {UCLM}}
+      \field{langid}{spanish}
+      \field{title}{Curso: {\LaTeX{}} esencial para preparación de TFG, Tesis y otros documentos académicos}
+      \field{urlday}{12}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://visilab.etsii.uclm.es/?page_id=1468
+      \endverb
+      \verb{url}
+      \verb http://visilab.etsii.uclm.es/?page_id=1468
+      \endverb
+    \endentry
+    \entry{wikibookLaTex10}{online}{}
+      \name{author}{1}{}{%
+        {{hash=4208669ced5e30d9a5376405294021e0}{%
+           family={WikiMedia},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{4208669ced5e30d9a5376405294021e0}
+      \strng{fullhash}{4208669ced5e30d9a5376405294021e0}
+      \strng{bibnamehash}{4208669ced5e30d9a5376405294021e0}
+      \strng{authorbibnamehash}{4208669ced5e30d9a5376405294021e0}
+      \strng{authornamehash}{4208669ced5e30d9a5376405294021e0}
+      \strng{authorfullhash}{4208669ced5e30d9a5376405294021e0}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{spanish}
+      \field{title}{{\LaTeX{} Wikibook}}
+      \field{urlday}{2}
+      \field{urlmonth}{2}
+      \field{urlyear}{2017}
+      \field{year}{2010}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://en.wikibooks.org/wiki/LaTeX
+      \endverb
+      \verb{url}
+      \verb http://en.wikibooks.org/wiki/LaTeX
+      \endverb
+    \endentry
+    \entry{zozaya17}{online}{}
+      \name{author}{1}{}{%
+        {{hash=389722336bfc008744b6784cda045c4a}{%
+           family={Zozaya},
+           familyi={Z\bibinitperiod},
+           given={Leonor},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{389722336bfc008744b6784cda045c4a}
+      \strng{fullhash}{389722336bfc008744b6784cda045c4a}
+      \strng{bibnamehash}{389722336bfc008744b6784cda045c4a}
+      \strng{authorbibnamehash}{389722336bfc008744b6784cda045c4a}
+      \strng{authornamehash}{389722336bfc008744b6784cda045c4a}
+      \strng{authorfullhash}{389722336bfc008744b6784cda045c4a}
+      \field{sortinit}{Z}
+      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Redacción de textos. Recomendaciones para presentar trabajos académicos}
+      \field{urlday}{21}
+      \field{urlmonth}{6}
+      \field{urlyear}{2019}
+      \field{year}{2012-2017}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://redaccion.hypotheses.org/
+      \endverb
+      \verb{url}
+      \verb http://redaccion.hypotheses.org/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

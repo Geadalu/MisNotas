@@ -1,0 +1,34 @@
+%--- Ajustes del documento.
+\pagestyle{plain}	% Páginas sólo con numeración inferior al pie
+
+% -------------------------
+%
+% RESUMEN:
+% OJO: Si es preciso cambiar manualmente orden Resumen <-> Abstract
+%
+% -------------------------
+%--- Resumen en español
+\selectlanguage{spanish} % Selección de idioma del resumen.
+\cleardoublepage % Se incluye para modificar el contador de página antes de añadir bookmark
+\phantomsection  % OJO: Necesario con hyperref
+\pdfbookmark[0]{Resumen}{idx_resumen}% idx_resumen.0 % Bookmark en PDF
+
+\begin{abstract}
+% EDITAR: Resumen (máx. 1 pág.)
+\begin{center}
+\emph{TeachHelper}
+\end{center}
+Este Trabajo de Fin de Grado consiste en el desarrollo de una aplicación para escritorio que apuesta por la comodidad y conveniencia de los maestros a la hora de almacenar las calificaciones de sus alumnos.
+\newline
+Dicha aplicación, desarrollada en C\# mediante una metodología en cascada, consistirá en un asistente que el maestro ejecutará para guardar las notas, competencias y observaciones de sus alumnos, ordenados por asignaturas y cursos.
+\newline
+
+\end{abstract}
+%---
+
+%--- Ajuste del idioma para el resto del documento.
+\ifspanish
+	\selectlanguage{spanish}% Emplea idioma español
+\else
+	\selectlanguage{english}% Emplea idioma inglés
+\fi
