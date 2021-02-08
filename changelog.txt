@@ -1,0 +1,9 @@
+Memoria:
++ Análisis aplicaciones existentes
++ Funcionalidades de la aplicación
+
+Mockups:
++ 2 nuevas versiones de la pantalla principal
+
+Database:
++ Primera definición de la base de datos

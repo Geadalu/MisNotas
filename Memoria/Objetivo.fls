@@ -1,7 +1,5 @@
 PWD C:\Users\lucia\OneDrive\Escritorio\TFG\TeachHelper\Memoria
 INPUT C:\Users\lucia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT Introduccion.tex
-OUTPUT Introduccion.log
+INPUT Objetivo.tex
+OUTPUT Objetivo.log
 INPUT C:\Users\lucia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-OUTPUT Introduccion.pdf
-INPUT C:\Users\lucia\AppData\Local\MiKTeX\pdftex\config\pdftex.map

@@ -1,7 +1,7 @@
 \chapter{Introducción}
 \label{cap:Introduccion}
 
-Este trabajo va dirigido a los maestros de Educación Secundaria Obligatoria (ESO), consistente en la creación de una herramienta software donde puedan almacenar los datos de sus alumnos así como sus calificaciones a lo largo del curso.
+Este trabajo va dirigido a los maestros de \gls{eso}, y consiste en la creación de una herramienta software donde puedan almacenar los datos de sus alumnos así como sus calificaciones a lo largo del curso.
 
 A día de hoy, la mayoría de los maestros siguen usando hojas de cálculo para almacenar las calificaciones de sus alumnos. Esto, aunque es una mejor opción que hacerlo a mano, todavía dista mucho de ser una herramienta fácil de usar para cualquier persona, transparente para el maestro y visualmente agradable.
 
@@ -15,27 +15,15 @@ Los usuarios de la aplicación serán los maestros de Educación Secundaria Obli
 
 En este apartado se describen aplicaciones existentes y actuales que hacen lo mismo que la mía pero la mía es mejor por las razones que voy a exponer a continuación.
 
-\subsection{EducamosCLM (Papás 2.0)}
+\subsection{EducamosCLM}
 
 Esta aplicación web de la Junta de Comunidades de Castilla-La Mancha es la aplicación de gestión de alumnado por excelencia en los colegios públicos. 
 
 Características:
 
-\begin{enumerate}
-    \item \textbf{Planificación semanal.}
-    Un calendario y una agenda personales que tanto los alumnos como los profesores pueden usar para planificar los estudios, los exámenes o controles, trabajos o cualquier otro hito de la semana. También cuenta con un sistema de citaciones y reuniones.
-    \item \textbf{Seguimiento del curso.}
+\textbf {Seguimiento del curso.}
     En este apartado, los profesores pueden publicar las notas de sus alumnos para que estos y sus padres las vean en cualquier momento, así como las faltas de asistencia y la trayectoria escolar que lleva el alumno durante el curso.
     En la vista de los alumnos, estos podrán subir sus trabajos online, que le aparecerán al profesor para que pueda descargarlos, calificarlos e introducir dicha calificación en el sistema, así como pedir tutorías con los profesores.
-    \item \textbf{Comunicaciones con los padres y alumnos.}
-    Un sistema de mensajería para que los profesores puedan mantenerse en contacto con los padres y los alumnos.
-    \item \textbf{Características menores.}
-        \begin{itemize}
-            \item Documentos solicitados: los profesores pueden solicitar mediante esta característica documentos a los padres (justificantes de asistencia, exámenes firmados...)
-            \item Tablón de anuncios: aquí los profesores pueden escribir avisos que van en forma de notificaciones a los alumnos y los padres.
-            \item Secretaría virtual: esta aplicación también cuenta con un enlace a la secretaría virtual. Desde aquí se controlan los alumnos nuevos, entre muchas otras gestiones, a nivel de Centro.
-        \end{itemize}
-\end{enumerate}
         
 En qué podría mejorar mi aplicación respecto a esta:
 
@@ -88,3 +76,24 @@ En qué podría mejorar mi aplicación respecto a esta:
 	\item \textbf{Pensada principalmente para tablet y smartphone}. En su página web mencionan que esta aplicación está pensada para los profesores que usen su tablet o smartphone como forma principal de gestionar sus clases. TeachHelper es una aplicación de escritorio porque a todos los maestros se les da un ordenador portátil en el trabajo.
 
 \end{enumerate}
+
+
+
+
+En la tabla \ref{tab:Tabla1} se muestran las comparaciones de esta aplicación con las aplicaciones estudiadas. Las celdas con un asterisco significan que esa funcionalidad podría llegar a existir adaptando otras funcionalidades de la aplicación, o solo está disponible para algunos Centros.
+
+\begin{table}[h] 
+\caption{Comparaciones entre las aplicaciones}
+\label{tab:Tabla1}
+\begin{tabular}{@{}lcccc@{}}
+\toprule
+                                                                                                      & \multicolumn{1}{l}{\textbf{EducamosCLM}} & \multicolumn{1}{l}{\textbf{Google Classroom}} & \multicolumn{1}{l}{\textbf{Additio}} & \multicolumn{1}{l}{\textbf{TeachHelper}} \\ \midrule
+\multicolumn{1}{|l|}{\textbf{Inicio de sesión}}                                                       & \multicolumn{1}{c|}{x}                   & \multicolumn{1}{c|}{x}                        & \multicolumn{1}{c|}{x}               & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Gestión de \\ calificaciones\end{tabular}}}   & \multicolumn{1}{c|}{x}                   & \multicolumn{1}{c|}{x}                        & \multicolumn{1}{c|}{x}               & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Gestión del \\ alumnado\end{tabular}}}        & \multicolumn{1}{c|}{}                    & \multicolumn{1}{c|}{x}                        & \multicolumn{1}{c|}{x}               & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Gestión de \\ las competencias\end{tabular}}} & \multicolumn{1}{c|}{*}                    & \multicolumn{1}{c|}{}                         & \multicolumn{1}{c|}{x}               & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Comentarios \\ sobre alumnado\end{tabular}}}  & \multicolumn{1}{c|}{}                   & \multicolumn{1}{c|}{*}                        & \multicolumn{1}{c|}{*}               & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Recomendaciones \\ dinámicas\end{tabular}}}   & \multicolumn{1}{c|}{}                    & \multicolumn{1}{c|}{}                         & \multicolumn{1}{c|}{}                & \multicolumn{1}{c|}{x}                   \\ \midrule
+\multicolumn{1}{|l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Informes del \\ alumnado\end{tabular}}}       & \multicolumn{1}{c|}{}                    & \multicolumn{1}{c|}{x}                        & \multicolumn{1}{c|}{x}               & \multicolumn{1}{c|}{x}                   \\ \bottomrule
+\end{tabular}
+\end{table}

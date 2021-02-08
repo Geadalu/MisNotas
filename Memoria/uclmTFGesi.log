@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  6 FEB 2021 17:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  8 FEB 2021 12:53
 entering extended mode
 **./uclmTFGesi.tex
 (uclmTFGesi.tex
@@ -1532,19 +1532,39 @@ File: tikzlibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryfadings.code.tex
 File: pgflibraryfadings.code.tex 2020/12/27 v3.1.8b (3.1.8b)
-))))
+)))) (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.
+sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen303
+\lightrulewidth=\dimen304
+\cmidrulewidth=\dimen305
+\belowrulesep=\dimen306
+\belowbottomsep=\dimen307
+\aboverulesep=\dimen308
+\abovetopsep=\dimen309
+\cmidrulesep=\dimen310
+\cmidrulekern=\dimen311
+\defaultaddspace=\dimen312
+\@cmidla=\count346
+\@cmidlb=\count347
+\@aboverulesep=\dimen313
+\@belowrulesep=\dimen314
+\@thisruleclass=\count348
+\@lastruleclass=\count349
+\@thisrulewidth=\dimen315
+)
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/subfigure\subfigure.sty
 Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip96
 \subfigcapskip=\skip97
-\subfigcaptopadj=\dimen303
+\subfigcaptopadj=\dimen316
 \subfigbottomskip=\skip98
-\subfigcapmargin=\dimen304
+\subfigcapmargin=\dimen317
 \subfiglabelskip=\skip99
-\c@subfigure=\count346
-\c@lofdepth=\count347
-\c@subtable=\count348
-\c@lotdepth=\count349
+\c@subfigure=\count350
+\c@lofdepth=\count351
+\c@subtable=\count352
+\c@lotdepth=\count353
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
@@ -1555,7 +1575,7 @@ Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfig@bottom=\skip101
 ) (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/graphics\rotating.sty
 Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
-\c@r@tfl@t=\count350
+\c@r@tfl@t=\count354
 \rotFPtop=\skip102
 \rotFPbot=\skip103
 \rot@float@box=\box122
@@ -1564,32 +1584,13 @@ Package: rotating 2016/08/11 v2.16d rotated objects in LaTeX
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/latex-tools\tabularx.st
 y
 Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen305
-\TX@old@table=\dimen306
-\TX@old@col=\dimen307
-\TX@target=\dimen308
-\TX@delta=\dimen309
-\TX@cols=\count351
+\TX@col@width=\dimen318
+\TX@old@table=\dimen319
+\TX@old@col=\dimen320
+\TX@target=\dimen321
+\TX@delta=\dimen322
+\TX@cols=\count355
 \TX@ftn=\toks58
-) (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
-Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
-\heavyrulewidth=\dimen310
-\lightrulewidth=\dimen311
-\cmidrulewidth=\dimen312
-\belowrulesep=\dimen313
-\belowbottomsep=\dimen314
-\aboverulesep=\dimen315
-\abovetopsep=\dimen316
-\cmidrulesep=\dimen317
-\cmidrulekern=\dimen318
-\defaultaddspace=\dimen319
-\@cmidla=\count352
-\@cmidlb=\count353
-\@aboverulesep=\dimen320
-\@belowrulesep=\dimen321
-\@thisruleclass=\count354
-\@lastruleclass=\count355
-\@thisrulewidth=\dimen322
 ) (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2020/10/26 v3.5g Customizing captions (AR)
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
@@ -2109,8 +2110,8 @@ Package glossaries Info: Writing glossary file uclmTFGesi.glo on input line 1.
 
 Package glossaries Info: Writing glossary file uclmTFGesi.acn on input line 1.
 )
-Package hyperref Info: Option `pdftoolbar' set `true' on input line 213.
-Package hyperref Info: Option `pdfmenubar' set `true' on input line 213.
+Package hyperref Info: Option `pdftoolbar' set `true' on input line 214.
+Package hyperref Info: Option `pdfmenubar' set `true' on input line 214.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 (uclmTFGesi.aux
@@ -2128,48 +2129,48 @@ LaTeX Info: Redefining \% on input line 41.
 iones.aux) (AnexoA.aux))
 \openout1 = `uclmTFGesi.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 225.
+LaTeX Font Info:    Checking defaults for OML/nxlmi/m/it on input line 226.
 LaTeX Font Info:    Trying to load font information for OML+nxlmi on input line
- 225.
+ 226.
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\omlnxlmi.fd
 File: omlnxlmi.fd 2013/11/19 Fontinst v1.933 font definitions for OML/nxlmi.
 )
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for U/ntxexa/m/n on input line 226.
 LaTeX Font Info:    Trying to load font information for U+ntxexa on input line 
-225.
+226.
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxexa.fd
 File: untxexa.fd 2012/04/16 Fontinst v1.933 font definitions for U/ntxexa.
 )
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for LMS/ntxsy/m/n on input line 226.
 LaTeX Font Info:    Trying to load font information for LMS+ntxsy on input line
- 225.
+ 226.
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmsntxsy.fd
 File: lmsntxsy.fd 2016/07/02 Fontinst v1.933 font definitions for LMS/ntxsy.
 )
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 225.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for LMX/ntxexx/m/n on input line 226.
 LaTeX Font Info:    Trying to load font information for LMX+ntxexx on input lin
-e 225.
+e 226.
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\lmxntxexx.fd
 File: lmxntxexx.fd 2016/07/03 Fontinst v1.933 font definitions for LMX/ntxexx.
 )
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 225.
-LaTeX Font Info:    ... okay on input line 225.
-LaTeX Info: Redefining \. on input line 225.
-LaTeX Info: Redefining \% on input line 225.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 226.
+LaTeX Font Info:    ... okay on input line 226.
+LaTeX Info: Redefining \. on input line 226.
+LaTeX Info: Redefining \% on input line 226.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -2206,14 +2207,14 @@ LaTeX Info: Redefining \% on input line 225.
 
 \c@mv@tabular=\count520
 \c@mv@boldtabular=\count521
-LaTeX Info: Redefining \microtypecontext on input line 225.
+LaTeX Info: Redefining \microtypecontext on input line 226.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 225.
+LaTeX Info: Redefining \showhyphens on input line 226.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -2245,7 +2246,7 @@ Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 )
-Package hyperref Info: Link coloring ON on input line 225.
+Package hyperref Info: Link coloring ON on input line 226.
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -2257,9 +2258,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count528
 )
-LaTeX Info: Redefining \ref on input line 225.
-LaTeX Info: Redefining \pageref on input line 225.
-LaTeX Info: Redefining \nameref on input line 225.
+LaTeX Info: Redefining \ref on input line 226.
+LaTeX Info: Redefining \pageref on input line 226.
+LaTeX Info: Redefining \nameref on input line 226.
 (uclmTFGesi.out) (uclmTFGesi.out)
 \@outlinefile=\write9
 \openout9 = `uclmTFGesi.out'.
@@ -2312,23 +2313,23 @@ Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'uclmTFGesi.bbl' found.
 (uclmTFGesi.bbl)
-Package biblatex Info: Reference section=0 on input line 225.
-Package biblatex Info: Reference segment=0 on input line 225.
-<./figs//escudoInf.pdf, id=86, 571.13374pt x 690.58pt>
+Package biblatex Info: Reference section=0 on input line 226.
+Package biblatex Info: Reference segment=0 on input line 226.
+<./figs//escudoInf.pdf, id=90, 571.13374pt x 690.58pt>
 File: ./figs//escudoInf.pdf Graphic file (type pdf)
 <use ./figs//escudoInf.pdf>
-Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 236.
+Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 237.
 (pdftex.def)             Requested size: 99.58464pt x 120.41074pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 17.28pt on input line 236.
+(Font)              scaled to size 17.28pt on input line 237.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 17.28pt on input line 236.
+(Font)              scaled to size 17.28pt on input line 237.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 236.
+(Font)              scaled to size 12.0pt on input line 237.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 236.
+(Font)              scaled to size 12.0pt on input line 237.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 236.
+(Font)              scaled to size 14.4pt on input line 237.
 [1
 
 \openout6 = `uclmTFGesi.ist'.
@@ -2341,10 +2342,10 @@ nf.pdf>] [2
 ]
 File: ./figs//escudoInf.pdf Graphic file (type pdf)
 <use ./figs//escudoInf.pdf>
-Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 238.
+Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 239.
 (pdftex.def)             Requested size: 99.58464pt x 120.41074pt.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 14.4pt on input line 238.
+(Font)              scaled to size 14.4pt on input line 239.
 [3] (Creditos.tex
 LaTeX Info: Redefining \sptext on input line 13.
 LaTeX Info: Redefining \. on input line 13.
@@ -2426,30 +2427,30 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-<./figs//cclicense.png, id=272, 407.27156pt x 148.30406pt>
+<./figs//cclicense.png, id=276, 407.27156pt x 148.30406pt>
 File: ./figs//cclicense.png Graphic file (type png)
 <use ./figs//cclicense.png>
 Package pdftex.def Info: ./figs//cclicense.png  used on input line 13.
 (pdftex.def)             Requested size: 66.14996pt x 24.08667pt.
 [4 <./figs//cclicense.png (PNG copy)>])
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 17.28pt on input line 248.
+(Font)              scaled to size 17.28pt on input line 249.
 [5
 
 ] [6
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 258.
+(Font)              scaled to size 10.95pt on input line 259.
 [7] [8
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 267.
+(Font)              scaled to size 10.95pt on input line 268.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 267.
+(Font)              scaled to size 24.88pt on input line 268.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 24.88pt on input line 267.
+(Font)              scaled to size 24.88pt on input line 268.
 (uclmTFGesi.tdo)
 \tf@tdo=\write10
 \openout10 = `uclmTFGesi.tdo'.
@@ -2501,7 +2502,10 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 [1
 
 
-] [2]) [3]
+] [2]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
+(Font)              scaled to size 10.0pt on input line 86.
+) [3]
 \openout2 = `Objetivo.aux'.
 
 (Objetivo.tex [4
@@ -2511,19 +2515,19 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 
 ]
 Cap\'{\i }tulo 2.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.95pt on input line 8.
-[5]) [6]
+Package hyperref Info: bookmark level for unknown todo defaults to 0 on input l
+ine 5.
+) [5]
 \openout2 = `MiMetodologia.aux'.
 
-(MiMetodologia.tex
-Cap\'{\i }tulo 3.
-) [7
+(MiMetodologia.tex [6
 
 
 
 
 ]
+Cap\'{\i }tulo 3.
+) [7]
 \openout2 = `Resultados.aux'.
 
 (Resultados.tex [8
@@ -2559,18 +2563,16 @@ Ap\'{e}ndice A.
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 8.0pt on input line 334.
+(Font)              scaled to size 8.0pt on input line 335.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 335.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 334.
+(Font)              scaled to size 8.0pt on input line 335.
 [15
 
 ] [16
 
 ] (uclmTFGesi.ind)
-
-Package caption Warning: Unused \captionsetup[table] on input line 113.
-See the caption package documentation for explanation.
-
 
 Package glossaries Warning: No \printglossary or \printglossaries found. 
 (Remove \makeglossaries if you don't want any glossaries.) 
@@ -2595,35 +2597,38 @@ LaTeX Info: Redefining \% on input line 41.
 (Introduccion.aux) (Objetivo.aux) (MiMetodologia.aux) (Resultados.aux) (Conclus
 iones.aux) (AnexoA.aux))
 Package rerunfilecheck Info: File `uclmTFGesi.out' has not changed.
-(rerunfilecheck)             Checksum: F8C8AF509F416D05D750228D47854C93;814.
+(rerunfilecheck)             Checksum: A77EB246467FC2DEFE6068815AEAEA5C;884.
 Package logreq Info: Writing requests to 'uclmTFGesi.run.xml'.
 \openout1 = `uclmTFGesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46612 strings out of 479618
- 866558 string characters out of 2865027
- 1715701 words of memory out of 3000000
- 62330 multiletter control sequences out of 15000+200000
- 581213 words of font info for 378 fonts, out of 3000000 for 9000
+ 46742 strings out of 479618
+ 869151 string characters out of 2865027
+ 1718505 words of memory out of 3000000
+ 62479 multiletter control sequences out of 15000+200000
+ 582783 words of font info for 361 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,11n,130p,1141b,2028s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_
-25tcsq.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libert
-ine/lbtn_7grukw.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvi
-ps/libertine/lbtn_ncsllp.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/font
-s/enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/lucia/AppData/Local/Programs/Mi
-KTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/lucia/AppData/Local/Pr
-ograms/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}<C:/Users/lucia/AppData
-/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/
-lucia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.
-pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/
-LinLibertineT.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/pub
-lic/libertine/LinLibertineTB.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/
-fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on uclmTFGesi.pdf (30 pages, 688144 bytes).
+ 128i,16n,130p,1141b,2028s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{glo:eso} has been referenced but does not exist, 
+replaced by a fixed one
+
+{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_25
+tcsq.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertin
+e/lbtn_7grukw.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/enc/dvips
+/libertine/lbtn_ncsllp.enc}{C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/
+enc/dvips/libertine/lbtn_naooyc.enc}{C:/Users/lucia/AppData/Local/Programs/MiKT
+eX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/lucia/AppData/Local/Prog
+rams/MiKTeX/fonts/enc/dvips/libertine/lbtn_nh77jq.enc}<C:/Users/lucia/AppData/L
+ocal/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/lu
+cia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pf
+b><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
+nLibertineT.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/publi
+c/libertine/LinLibertineTB.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fo
+nts/type1/public/libertine/LinLibertineTI.pfb>
+Output written on uclmTFGesi.pdf (30 pages, 686171 bytes).
 PDF statistics:
- 492 PDF objects out of 1000 (max. 8388607)
- 86 named destinations out of 1000 (max. 500000)
- 102631 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 508 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
+ 106735 words of extra memory for PDF output out of 106986 (max. 10000000)
 
