@@ -1,9 +1,3 @@
-Memoria:
-+ Análisis aplicaciones existentes
-+ Funcionalidades de la aplicación
+Mockups: nuevos mockups
 
-Mockups:
-+ 2 nuevas versiones de la pantalla principal
-
-Database:
-+ Primera definición de la base de datos
+Añadida "nombres.txt" con ideas para cambiar el nombre de la app.
