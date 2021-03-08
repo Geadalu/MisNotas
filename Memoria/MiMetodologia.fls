@@ -1,0 +1,4 @@
+PWD C:\Users\lucia\Desktop\TFG\TeachHelper\Memoria
+INPUT C:\Users\lucia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT MiMetodologia.tex
+OUTPUT MiMetodologia.log

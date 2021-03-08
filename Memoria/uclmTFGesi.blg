@@ -1,17 +1,17 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'uclmTFGesi.blg'
-[139] biber-MSWIN64:340> INFO - === 
-[181] Biber.pm:415> INFO - Reading 'uclmTFGesi.bcf'
-[310] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[328] Biber.pm:4340> INFO - Processing section 0
-[343] Biber.pm:4531> INFO - Looking for bibtex format file 'biblioTFG.bib' for section 0
-[392] bibtex.pm:1689> INFO - LaTeX decoding ...
-[415] bibtex.pm:1494> INFO - Found BibTeX data source 'biblioTFG.bib'
-[499] Utils.pm:395> WARN - legacy year field '2012-2017' in entry 'zozaya17' is not an integer - this will probably not sort properly.
-[508] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\lucia\AppData\Local\Temp\biber_tmp_L4pw\c66963caf14a85c68a656c491255f2c6_3232.utf8, line 6, warning: 107 characters of junk seen at toplevel
-[530] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[530] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[530] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[551] bbl.pm:654> INFO - Writing 'uclmTFGesi.bbl' with encoding 'UTF-8'
-[557] bbl.pm:757> INFO - Output to uclmTFGesi.bbl
-[557] Biber.pm:128> INFO - WARNINGS: 2
+[142] biber-MSWIN64:340> INFO - === 
+[182] Biber.pm:415> INFO - Reading 'uclmTFGesi.bcf'
+[306] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[322] Biber.pm:4340> INFO - Processing section 0
+[335] Biber.pm:4531> INFO - Looking for bibtex format file 'biblioTFG.bib' for section 0
+[384] bibtex.pm:1689> INFO - LaTeX decoding ...
+[404] bibtex.pm:1494> INFO - Found BibTeX data source 'biblioTFG.bib'
+[438] Utils.pm:395> WARN - legacy year field '2012-2017' in entry 'zozaya17' is not an integer - this will probably not sort properly.
+[488] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\lucia\AppData\Local\Temp\biber_tmp_Yivo\c66963caf14a85c68a656c491255f2c6_10824.utf8, line 6, warning: 107 characters of junk seen at toplevel
+[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[507] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[507] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[523] bbl.pm:654> INFO - Writing 'uclmTFGesi.bbl' with encoding 'UTF-8'
+[529] bbl.pm:757> INFO - Output to uclmTFGesi.bbl
+[529] Biber.pm:128> INFO - WARNINGS: 2

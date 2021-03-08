@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  8 FEB 2021 12:53
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  8 MAR 2021 12:51
 entering extended mode
 **./uclmTFGesi.tex
 (uclmTFGesi.tex
@@ -2315,7 +2315,7 @@ Package biblatex Info: ... file 'uclmTFGesi.bbl' found.
 (uclmTFGesi.bbl)
 Package biblatex Info: Reference section=0 on input line 226.
 Package biblatex Info: Reference segment=0 on input line 226.
-<./figs//escudoInf.pdf, id=90, 571.13374pt x 690.58pt>
+<./figs//escudoInf.pdf, id=110, 571.13374pt x 690.58pt>
 File: ./figs//escudoInf.pdf Graphic file (type pdf)
 <use ./figs//escudoInf.pdf>
 Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 237.
@@ -2427,7 +2427,7 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-<./figs//cclicense.png, id=276, 407.27156pt x 148.30406pt>
+<./figs//cclicense.png, id=296, 407.27156pt x 148.30406pt>
 File: ./figs//cclicense.png Graphic file (type png)
 <use ./figs//cclicense.png>
 Package pdftex.def Info: ./figs//cclicense.png  used on input line 13.
@@ -2597,16 +2597,16 @@ LaTeX Info: Redefining \% on input line 41.
 (Introduccion.aux) (Objetivo.aux) (MiMetodologia.aux) (Resultados.aux) (Conclus
 iones.aux) (AnexoA.aux))
 Package rerunfilecheck Info: File `uclmTFGesi.out' has not changed.
-(rerunfilecheck)             Checksum: A77EB246467FC2DEFE6068815AEAEA5C;884.
+(rerunfilecheck)             Checksum: 82DC940102D190BFEA24C9665DB2D9AF;1285.
 Package logreq Info: Writing requests to 'uclmTFGesi.run.xml'.
 \openout1 = `uclmTFGesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46742 strings out of 479618
- 869151 string characters out of 2865027
- 1718505 words of memory out of 3000000
- 62479 multiletter control sequences out of 15000+200000
+ 46752 strings out of 479618
+ 868927 string characters out of 2865027
+ 1718512 words of memory out of 3000000
+ 62484 multiletter control sequences out of 15000+200000
  582783 words of font info for 361 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,130p,1141b,2028s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2626,9 +2626,9 @@ b><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nLibertineT.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/libertine/LinLibertineTB.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on uclmTFGesi.pdf (30 pages, 686171 bytes).
+Output written on uclmTFGesi.pdf (30 pages, 690430 bytes).
 PDF statistics:
- 508 PDF objects out of 1000 (max. 8388607)
- 92 named destinations out of 1000 (max. 500000)
- 106735 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 529 PDF objects out of 1000 (max. 8388607)
+ 97 named destinations out of 1000 (max. 500000)
+ 106775 words of extra memory for PDF output out of 106986 (max. 10000000)
 

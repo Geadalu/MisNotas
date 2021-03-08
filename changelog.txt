@@ -1,3 +1,3 @@
-Mockups: nuevos mockups
+Añadida "codigos_asignaturas" con una descripción de la base de datos
 
-Añadida "nombres.txt" con ideas para cambiar el nombre de la app.
+Commit en NoName con el diseño de la ventana principal y el cambio a NetBeans

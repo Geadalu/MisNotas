@@ -1,0 +1,19 @@
+ASIGNATURAS
+1 - Matemáticas
+2 - Conocimiento del medio
+3 - Lengua Castellana
+4 -
+5 - Educación física
+6 - Historia
+
+
+MAESTROS
+1 - Matemáticas, conocimiento del medio, lengua castellana
+2 - Historia
+
+
+CURSOS Y ASIGNATURAS
+1 - Matemáticas, Conocimiento
+2 - Matemáticas, Educación física
+3 - Matemáticas
+4 - Historia
