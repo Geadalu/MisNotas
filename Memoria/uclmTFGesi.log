@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  8 MAR 2021 12:51
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.6)  5 JUL 2021 11:47
 entering extended mode
 **./uclmTFGesi.tex
 (uclmTFGesi.tex
@@ -2315,7 +2315,7 @@ Package biblatex Info: ... file 'uclmTFGesi.bbl' found.
 (uclmTFGesi.bbl)
 Package biblatex Info: Reference section=0 on input line 226.
 Package biblatex Info: Reference segment=0 on input line 226.
-<./figs//escudoInf.pdf, id=110, 571.13374pt x 690.58pt>
+<./figs//escudoInf.pdf, id=122, 571.13374pt x 690.58pt>
 File: ./figs//escudoInf.pdf Graphic file (type pdf)
 <use ./figs//escudoInf.pdf>
 Package pdftex.def Info: ./figs//escudoInf.pdf  used on input line 237.
@@ -2427,7 +2427,7 @@ LaTeX Font Info:    Trying to load font information for U+ntxsyc on input line
 (C:\Users\lucia\AppData\Local\Programs\MiKTeX\tex/latex/newtx\untxsyc.fd
 File: untxsyc.fd 2012/04/12 Fontinst v1.933 font definitions for U/ntxsyc.
 )
-<./figs//cclicense.png, id=296, 407.27156pt x 148.30406pt>
+<./figs//cclicense.png, id=308, 407.27156pt x 148.30406pt>
 File: ./figs//cclicense.png Graphic file (type png)
 <use ./figs//cclicense.png>
 Package pdftex.def Info: ./figs//cclicense.png  used on input line 13.
@@ -2527,37 +2527,70 @@ ine 5.
 
 ]
 Cap\'{\i }tulo 3.
-) [7]
+<figs/mockup_mainwindow.png, id=426, 786.68906pt x 587.94656pt>
+File: figs/mockup_mainwindow.png Graphic file (type png)
+<use figs/mockup_mainwindow.png>
+Package pdftex.def Info: figs/mockup_mainwindow.png  used on input line 25.
+(pdftex.def)             Requested size: 441.01773pt x 329.61565pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/mockup_nuevatarea.png, id=428, 786.68906pt x 587.94656pt>
+File: figs/mockup_nuevatarea.png Graphic file (type png)
+<use figs/mockup_nuevatarea.png>
+Package pdftex.def Info: figs/mockup_nuevatarea.png  used on input line 31.
+(pdftex.def)             Requested size: 441.01773pt x 329.61565pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/mockup_informealumno.png, id=429, 786.68906pt x 587.94656pt>
+File: figs/mockup_informealumno.png Graphic file (type png)
+<use figs/mockup_informealumno.png>
+Package pdftex.def Info: figs/mockup_informealumno.png  used on input line 37.
+(pdftex.def)             Requested size: 441.01773pt x 329.61565pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<figs/DB_Definition_1.png, id=431, 767.86874pt x 508.90125pt>
+File: figs/DB_Definition_1.png Graphic file (type png)
+<use figs/DB_Definition_1.png>
+Package pdftex.def Info: figs/DB_Definition_1.png  used on input line 53.
+(pdftex.def)             Requested size: 441.01773pt x 292.28981pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7]) [8 <./figs/mockup_mainwindow.png>] [9 <./figs/mockup_nuevatarea.png>] [10 
+<./figs/mockup_informealumno.png> <./figs/DB_Definition_1.png>]
 \openout2 = `Resultados.aux'.
 
-(Resultados.tex [8
+(Resultados.tex
+Cap\'{\i }tulo 4.
+) [11
 
 
 
 
 ]
-Cap\'{\i }tulo 4.
-) [9]
 \openout2 = `Conclusiones.aux'.
 
-(Conclusiones.tex [10
+(Conclusiones.tex [12
 
 
 
 
 ]
 Cap\'{\i }tulo 5.
-) [11]
+) [13]
 \openout2 = `AnexoA.aux'.
 
-(AnexoA.tex [12
+(AnexoA.tex [14
 
 
 
 
 ]
 Ap\'{e}ndice A.
-) [13] [14
+) [15] [16
 
 
 
@@ -2568,9 +2601,9 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 10.95pt on input line 335.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 8.0pt on input line 335.
-[15
+[17
 
-] [16
+] [18
 
 ] (uclmTFGesi.ind)
 
@@ -2597,16 +2630,16 @@ LaTeX Info: Redefining \% on input line 41.
 (Introduccion.aux) (Objetivo.aux) (MiMetodologia.aux) (Resultados.aux) (Conclus
 iones.aux) (AnexoA.aux))
 Package rerunfilecheck Info: File `uclmTFGesi.out' has not changed.
-(rerunfilecheck)             Checksum: 82DC940102D190BFEA24C9665DB2D9AF;1285.
+(rerunfilecheck)             Checksum: 6BE76D4F36FC0D9E3986F52BC236B97A;1552.
 Package logreq Info: Writing requests to 'uclmTFGesi.run.xml'.
 \openout1 = `uclmTFGesi.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 46752 strings out of 479618
- 868927 string characters out of 2865027
- 1718512 words of memory out of 3000000
- 62484 multiletter control sequences out of 15000+200000
+ 46795 strings out of 479618
+ 869921 string characters out of 2865027
+ 1718778 words of memory out of 3000000
+ 62513 multiletter control sequences out of 15000+200000
  582783 words of font info for 361 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  128i,16n,130p,1141b,2028s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2626,9 +2659,9 @@ b><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/Li
 nLibertineT.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fonts/type1/publi
 c/libertine/LinLibertineTB.pfb><C:/Users/lucia/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on uclmTFGesi.pdf (30 pages, 690430 bytes).
+Output written on uclmTFGesi.pdf (32 pages, 1136172 bytes).
 PDF statistics:
- 529 PDF objects out of 1000 (max. 8388607)
- 97 named destinations out of 1000 (max. 500000)
- 106775 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 568 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 106819 words of extra memory for PDF output out of 106986 (max. 10000000)
 
