@@ -1,3 +1,0 @@
-Añadida "codigos_asignaturas" con una descripción de la base de datos
-
-Commit en NoName con el diseño de la ventana principal y el cambio a NetBeans
