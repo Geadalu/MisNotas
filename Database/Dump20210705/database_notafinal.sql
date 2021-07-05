@@ -40,7 +40,7 @@ CREATE TABLE `notafinal` (
 
 LOCK TABLES `notafinal` WRITE;
 /*!40000 ALTER TABLE `notafinal` DISABLE KEYS */;
-INSERT INTO `notafinal` VALUES (4,131,10,9,9.5,10,NULL),(5,131,5,9,4,4,NULL),(6,131,1,7,3,5,NULL),(7,131,2,4,4,4,NULL);
+INSERT INTO `notafinal` VALUES (2,131,0,0,0,0,''),(3,131,0,0,0,0,''),(4,131,10,5,9.5,10,'ComentarioNotaFinal1'),(5,131,6,9,7,10,'ComentarioNotaFinal2'),(6,131,1,7,3,10,'ComentarioNotaFinal3'),(7,131,2,4,4,4,'ComentarioNotaFinal4'),(12,131,0,0,0,0,''),(13,131,0,0,0,0,''),(14,131,0,0,0,0,''),(57,131,0,0,0,0,''),(58,131,0,0,0,0,''),(61,131,0,0,0,0,''),(62,131,0,0,0,0,NULL);
 /*!40000 ALTER TABLE `notafinal` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -53,4 +53,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:42
+-- Dump completed on 2021-07-05 17:07:02

@@ -16,27 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `competenciasporprueba`
+-- Table structure for table `competenciasporasignatura`
 --
 
-DROP TABLE IF EXISTS `competenciasporprueba`;
+DROP TABLE IF EXISTS `competenciasporasignatura`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `competenciasporprueba` (
+CREATE TABLE `competenciasporasignatura` (
   `idCompetencia` int NOT NULL,
-  `idPrueba` int NOT NULL,
-  PRIMARY KEY (`idCompetencia`,`idPrueba`)
+  `idAsignatura` int NOT NULL,
+  PRIMARY KEY (`idCompetencia`,`idAsignatura`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `competenciasporprueba`
+-- Dumping data for table `competenciasporasignatura`
 --
 
-LOCK TABLES `competenciasporprueba` WRITE;
-/*!40000 ALTER TABLE `competenciasporprueba` DISABLE KEYS */;
-INSERT INTO `competenciasporprueba` VALUES (1,31),(1,34),(2,31),(2,33),(3,33);
-/*!40000 ALTER TABLE `competenciasporprueba` ENABLE KEYS */;
+LOCK TABLES `competenciasporasignatura` WRITE;
+/*!40000 ALTER TABLE `competenciasporasignatura` DISABLE KEYS */;
+INSERT INTO `competenciasporasignatura` VALUES (1,131),(2,131),(3,131);
+/*!40000 ALTER TABLE `competenciasporasignatura` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:01

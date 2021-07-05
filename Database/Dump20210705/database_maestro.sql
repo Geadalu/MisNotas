@@ -16,28 +16,26 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `competencia`
+-- Table structure for table `maestro`
 --
 
-DROP TABLE IF EXISTS `competencia`;
+DROP TABLE IF EXISTS `maestro`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `competencia` (
-  `idCompetencia` int NOT NULL,
-  `nombre` varchar(45) DEFAULT NULL,
-  `descripcion` varchar(500) DEFAULT NULL,
-  PRIMARY KEY (`idCompetencia`)
+CREATE TABLE `maestro` (
+  `idMaestro` varchar(9) NOT NULL,
+  `idAsignatura` int NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `competencia`
+-- Dumping data for table `maestro`
 --
 
-LOCK TABLES `competencia` WRITE;
-/*!40000 ALTER TABLE `competencia` DISABLE KEYS */;
-INSERT INTO `competencia` VALUES (1,'Comprensión total de los monimios monomiales','Descripción larga de comprensión total de los monimios monomiales.'),(2,'Conocimiento del álgebra','Sí, en matemáticas también hay letras.'),(3,'Comprensión del sistema de fracciones','Entender perfectamente que si te ofrecen dos tercios de la pizza, te ofrecen más de la mitad.');
-/*!40000 ALTER TABLE `competencia` ENABLE KEYS */;
+LOCK TABLES `maestro` WRITE;
+/*!40000 ALTER TABLE `maestro` DISABLE KEYS */;
+INSERT INTO `maestro` VALUES ('1',131),('1',211),('1',441),('1',331),('2',641);
+/*!40000 ALTER TABLE `maestro` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +47,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:01

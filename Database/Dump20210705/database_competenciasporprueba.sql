@@ -16,28 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `asignatura`
+-- Table structure for table `competenciasporprueba`
 --
 
-DROP TABLE IF EXISTS `asignatura`;
+DROP TABLE IF EXISTS `competenciasporprueba`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `asignatura` (
-  `idAsignatura` int NOT NULL,
-  `nombre` varchar(45) DEFAULT NULL,
-  `optativa` int DEFAULT '0',
-  PRIMARY KEY (`idAsignatura`)
+CREATE TABLE `competenciasporprueba` (
+  `idCompetencia` int NOT NULL,
+  `idPrueba` int NOT NULL,
+  PRIMARY KEY (`idCompetencia`,`idPrueba`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `asignatura`
+-- Dumping data for table `competenciasporprueba`
 --
 
-LOCK TABLES `asignatura` WRITE;
-/*!40000 ALTER TABLE `asignatura` DISABLE KEYS */;
-INSERT INTO `asignatura` VALUES (111,'Matemáticas 1ºA',0),(121,'Matemáticas 2ºA',0),(131,'Matemáticas 3ºA',0),(132,'Matemáticas 3ºB',0),(133,'Matemáticas 3ºC',0),(211,'Conocimiento del medio 1ºA',0),(331,'Lengua Castellana 3ºA',0),(441,'Religiones 4ºA',1),(521,'Educación física 2ºA',0),(641,'Historia 4ºA',0);
-/*!40000 ALTER TABLE `asignatura` ENABLE KEYS */;
+LOCK TABLES `competenciasporprueba` WRITE;
+/*!40000 ALTER TABLE `competenciasporprueba` DISABLE KEYS */;
+INSERT INTO `competenciasporprueba` VALUES (2,3),(2,4),(2,50),(2,51),(3,45),(3,51);
+/*!40000 ALTER TABLE `competenciasporprueba` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -49,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:01

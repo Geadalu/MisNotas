@@ -16,29 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `nota`
+-- Table structure for table `alumnosporasignatura`
 --
 
-DROP TABLE IF EXISTS `nota`;
+DROP TABLE IF EXISTS `alumnosporasignatura`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `nota` (
+CREATE TABLE `alumnosporasignatura` (
+  `idAsignatura` int NOT NULL,
   `idAlumno` int NOT NULL,
-  `idPrueba` int NOT NULL,
-  `nota` double NOT NULL,
-  `comentario` varchar(200) DEFAULT NULL,
-  PRIMARY KEY (`idAlumno`,`idPrueba`)
+  PRIMARY KEY (`idAsignatura`,`idAlumno`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `nota`
+-- Dumping data for table `alumnosporasignatura`
 --
 
-LOCK TABLES `nota` WRITE;
-/*!40000 ALTER TABLE `nota` DISABLE KEYS */;
-INSERT INTO `nota` VALUES (4,1,6.7,'Esto es un comentario1'),(4,2,6.4,'Esto es un comentario2'),(4,3,5.7,'Esto es un comentario3'),(4,4,4.2,'Esto es un comentario4'),(4,5,5,'Esto es un comentario5'),(4,6,7.2,'Esto es un comentario6'),(5,1,10,'Esto es un comentario7'),(5,2,9.5,'Esto es un comentario8'),(5,3,10,'Esto es un comentario9'),(5,4,9.3,'Esto es un comentario10'),(5,5,9.8,'Esto es un comentario11'),(5,6,10,'Esto es un comentario12'),(13,5,6,'Esto es un comentario13'),(13,6,6,'Esto es un comentario14'),(14,1,10,'Esto es un comentario15'),(14,2,10,'Esto es un comentario16');
-/*!40000 ALTER TABLE `nota` ENABLE KEYS */;
+LOCK TABLES `alumnosporasignatura` WRITE;
+/*!40000 ALTER TABLE `alumnosporasignatura` DISABLE KEYS */;
+INSERT INTO `alumnosporasignatura` VALUES (131,2),(131,3),(131,4),(131,5),(131,6),(131,7),(131,12),(131,13),(131,14),(131,57),(131,58),(131,61),(131,62),(131,64),(131,65),(131,66),(131,67),(131,68),(131,69),(131,70),(133,10),(133,11),(211,15),(211,16),(211,17),(331,2),(331,3),(331,4),(331,5),(331,6),(331,7),(331,12),(331,13),(331,14),(331,57),(331,58),(331,61),(331,62),(331,64),(331,65),(331,66),(331,67),(331,68),(331,69),(331,70),(441,20),(441,21),(441,59),(441,60),(521,18),(521,19),(641,20),(641,21);
+/*!40000 ALTER TABLE `alumnosporasignatura` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -50,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:02

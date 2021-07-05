@@ -16,26 +16,27 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `maestro`
+-- Table structure for table `asignaturasencurso`
 --
 
-DROP TABLE IF EXISTS `maestro`;
+DROP TABLE IF EXISTS `asignaturasencurso`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `maestro` (
-  `idMaestro` varchar(9) NOT NULL,
-  `idAsignatura` int NOT NULL
+CREATE TABLE `asignaturasencurso` (
+  `idCurso` int NOT NULL,
+  `idAsignatura` int NOT NULL,
+  PRIMARY KEY (`idCurso`,`idAsignatura`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `maestro`
+-- Dumping data for table `asignaturasencurso`
 --
 
-LOCK TABLES `maestro` WRITE;
-/*!40000 ALTER TABLE `maestro` DISABLE KEYS */;
-INSERT INTO `maestro` VALUES ('1',131),('1',211),('1',441),('1',331),('2',641);
-/*!40000 ALTER TABLE `maestro` ENABLE KEYS */;
+LOCK TABLES `asignaturasencurso` WRITE;
+/*!40000 ALTER TABLE `asignaturasencurso` DISABLE KEYS */;
+INSERT INTO `asignaturasencurso` VALUES (11,111),(11,211),(21,521),(31,131),(31,331),(32,132),(33,133),(41,441),(41,641);
+/*!40000 ALTER TABLE `asignaturasencurso` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -47,4 +48,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:02

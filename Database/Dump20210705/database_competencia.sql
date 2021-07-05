@@ -16,27 +16,28 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `competenciasporasignatura`
+-- Table structure for table `competencia`
 --
 
-DROP TABLE IF EXISTS `competenciasporasignatura`;
+DROP TABLE IF EXISTS `competencia`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `competenciasporasignatura` (
+CREATE TABLE `competencia` (
   `idCompetencia` int NOT NULL,
-  `idAsignatura` int NOT NULL,
-  PRIMARY KEY (`idCompetencia`,`idAsignatura`)
+  `nombre` varchar(45) DEFAULT NULL,
+  `descripcion` varchar(500) DEFAULT NULL,
+  PRIMARY KEY (`idCompetencia`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `competenciasporasignatura`
+-- Dumping data for table `competencia`
 --
 
-LOCK TABLES `competenciasporasignatura` WRITE;
-/*!40000 ALTER TABLE `competenciasporasignatura` DISABLE KEYS */;
-INSERT INTO `competenciasporasignatura` VALUES (1,131),(2,131),(3,131);
-/*!40000 ALTER TABLE `competenciasporasignatura` ENABLE KEYS */;
+LOCK TABLES `competencia` WRITE;
+/*!40000 ALTER TABLE `competencia` DISABLE KEYS */;
+INSERT INTO `competencia` VALUES (1,'Ecuaciones cuadráticas sencillas','Comprender las ecuaciones cuadráticas y saber resolverlas.'),(2,'Datos, poblaciones, estadística','Comprender la estadística básica, qué es una población y qué ejercicios básicos se pueden hacer con los datos.'),(3,'Teorema de Pitágoras','Comprender y saber aplicar el Teorema de Pitágoras en triángulos rectángulos.'),(4,'Transformaciones en el plano','Saber y comprender cómo se transpone una figura en un plano.'),(5,'Gráficas y tablas','Saber identificar e interpretar los distintos tipos de gráficas y realizarlas con una tabla'),(6,'Comunicación lingüística','Comunicarse correctamente tanto verbalmente como por escrito.'),(7,'Conocimiento de la lengua','Conocimiento de la lengua castellana');
+/*!40000 ALTER TABLE `competencia` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +49,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:42
+-- Dump completed on 2021-07-05 17:07:01

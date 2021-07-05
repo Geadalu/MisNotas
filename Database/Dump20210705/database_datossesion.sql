@@ -16,27 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `alumnosporasignatura`
+-- Table structure for table `datossesion`
 --
 
-DROP TABLE IF EXISTS `alumnosporasignatura`;
+DROP TABLE IF EXISTS `datossesion`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `alumnosporasignatura` (
-  `idAsignatura` int NOT NULL,
-  `idAlumno` int NOT NULL,
-  PRIMARY KEY (`idAsignatura`,`idAlumno`)
+CREATE TABLE `datossesion` (
+  `idMaestro` varchar(9) NOT NULL,
+  `contraseña` varchar(45) NOT NULL,
+  `nombre` varchar(45) DEFAULT NULL,
+  PRIMARY KEY (`idMaestro`),
+  UNIQUE KEY `idProfesor_UNIQUE` (`idMaestro`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `alumnosporasignatura`
+-- Dumping data for table `datossesion`
 --
 
-LOCK TABLES `alumnosporasignatura` WRITE;
-/*!40000 ALTER TABLE `alumnosporasignatura` DISABLE KEYS */;
-INSERT INTO `alumnosporasignatura` VALUES (131,2),(131,3),(131,4),(131,5),(131,6),(131,7),(131,12),(131,13),(131,14),(131,57),(131,58),(131,61),(131,62),(133,10),(133,11),(211,15),(211,16),(211,17),(331,2),(331,3),(331,4),(331,5),(331,6),(331,7),(331,12),(331,13),(331,14),(331,57),(331,58),(331,61),(331,62),(441,20),(441,21),(441,59),(441,60),(521,18),(521,19),(641,20),(641,21);
-/*!40000 ALTER TABLE `alumnosporasignatura` ENABLE KEYS */;
+LOCK TABLES `datossesion` WRITE;
+/*!40000 ALTER TABLE `datossesion` DISABLE KEYS */;
+INSERT INTO `datossesion` VALUES ('01234567A','4321','Lucía Calzado'),('98765432B','1234','Montserrat Piedrabuena');
+/*!40000 ALTER TABLE `datossesion` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:43
+-- Dump completed on 2021-07-05 17:07:01

@@ -16,27 +16,29 @@
 /*!40111 SET @OLD_SQL_NOTES=@@SQL_NOTES, SQL_NOTES=0 */;
 
 --
--- Table structure for table `curso`
+-- Table structure for table `nota`
 --
 
-DROP TABLE IF EXISTS `curso`;
+DROP TABLE IF EXISTS `nota`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
-CREATE TABLE `curso` (
-  `idCurso` int NOT NULL,
-  `nombre` varchar(3) DEFAULT NULL,
-  PRIMARY KEY (`idCurso`)
+CREATE TABLE `nota` (
+  `idAlumno` int NOT NULL,
+  `idPrueba` int NOT NULL,
+  `nota` double NOT NULL,
+  `comentario` varchar(200) DEFAULT NULL,
+  PRIMARY KEY (`idAlumno`,`idPrueba`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
--- Dumping data for table `curso`
+-- Dumping data for table `nota`
 --
 
-LOCK TABLES `curso` WRITE;
-/*!40000 ALTER TABLE `curso` DISABLE KEYS */;
-INSERT INTO `curso` VALUES (11,'1ºA'),(21,'2ºA'),(31,'3ºA'),(32,'3ºB'),(33,'3ºC'),(41,'4ºA'),(53,'5ºC'),(54,'5ºD'),(64,'6ºD'),(94,'9ºD');
-/*!40000 ALTER TABLE `curso` ENABLE KEYS */;
+LOCK TABLES `nota` WRITE;
+/*!40000 ALTER TABLE `nota` DISABLE KEYS */;
+INSERT INTO `nota` VALUES (4,1,6.7,'Muy bien'),(4,2,6.4,'Un poco flojo ej. 3'),(4,3,5.7,'Necesita repasar'),(4,4,4.2,''),(4,5,5,''),(4,6,7.2,''),(5,1,10,''),(5,2,9.5,'Tiene potencial'),(5,3,10,''),(5,4,9.3,''),(5,5,9.8,'Creo que copió del compañero'),(5,6,10,''),(13,5,6,''),(13,6,6,''),(14,1,10,'Mejor que el anterior'),(14,2,10,'Sigue mejorando');
+/*!40000 ALTER TABLE `nota` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
@@ -48,4 +50,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2021-05-28 20:02:42
+-- Dump completed on 2021-07-05 17:07:01
