@@ -1,4 +1,5 @@
-PWD C:\Users\lucia\Desktop\TFG\TeachHelper\Memoria
+PWD C:\Users\lucia\Desktop\TFG\MisNotas\Memoria
 INPUT C:\Users\lucia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
 INPUT MiMetodologia.tex
 OUTPUT MiMetodologia.log
+INPUT C:\Users\lucia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm

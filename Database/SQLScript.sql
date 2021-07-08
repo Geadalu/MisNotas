@@ -69,14 +69,14 @@ INSERT INTO alumno (idAlumno, nombre, apellidos, dni, fechaNacimiento) VALUES (2
 
 SELECT * FROM prueba;
 #DELETE FROM prueba;
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (1, 131, "Examen 1 Matemáticas", "EX1MA", "01/01/2001", 1, 2);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (2, 131, "Examen 2 Matemáticas", "EX2MA", "01/01/2001", 1, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (3, 131, "Examen 3 Matemáticas", "EX3MA", "01/01/2001", 2, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (4, 131, "Examen 4 Matemáticas", "EX4MA", "01/01/2001", 2, 2);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (5, 131, "Examen 5 Matemáticas", "EX5MA", "01/01/2001", 3, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (6, 131, "Examen 6 Matemáticas", "EX6MA", "01/01/2001", 3, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (7, 131, "Prueba Monomios", "PRUMO", "01/01/2001", 2, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (8, 131, "Trabajo Ecuaciones", "ECUAC", "01/01/2001", 3, 1);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (1, 131, "Examen 1 Matemáticas", "EX1MA", "01/01/2001", 1, 8);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (2, 131, "Examen 2 Matemáticas", "EX2MA", "01/01/2001", 1, 2);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (3, 131, "Examen 3 Matemáticas", "EX3MA", "01/01/2001", 2, 5);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (4, 131, "Examen 4 Matemáticas", "EX4MA", "01/01/2001", 2, 6);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (5, 131, "Examen 5 Matemáticas", "EX5MA", "01/01/2001", 3, 5.5);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (6, 131, "Examen 6 Matemáticas", "EX6MA", "01/01/2001", 3, 4);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (7, 131, "Prueba Monomios", "PRUMO", "01/01/2001", 2, 0);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (8, 131, "Trabajo Ecuaciones", "ECUAC", "01/01/2001", 3, 0.5);
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (9, 641, "Examen 1 Historia", "EX1HI", "01/01/2001", 1, 5);
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (10, 641, "Examen 2 Historia", "EX2HI", "01/01/2001", 2, 2);
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (11, 641, "Examen 3 Historia", "EX3HI", "01/01/2001", 3, 3);
@@ -84,7 +84,7 @@ INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, 
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (13, 331, "Trabajo 2 Lengua", "EX2LE", "01/01/2001", 2, 2);
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (14, 331, "Trabajo 3 Lengua", "EX3LE", "01/01/2001", 2, 3);
 INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (15, 331, "Trabajo 4 Lengua", "EX4LE", "01/01/2001", 3, 1);
-INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (16, 331, "Trabajo 5 Lengua", "EX5LE", "01/01/2001", 3, 1);
+INSERT INTO prueba (idPrueba, idAsignatura, titulo, etiqueta, fecha, trimestre, peso) VALUES (16, 331, "Trabajo 5 Lengua", "EX5LE", "01/01/2001", 3, 3);
 
 SELECT * FROM nota;
 #DELETE FROM nota;
