@@ -19,88 +19,217 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global}
-    \entry{oetiker14}{manual}{}
+    \entry{additio}{online}{}
       \name{author}{1}{}{%
-        {{hash=da126d282a6ed41d6946f64b08dd3300}{%
-           family={al.},
-           familyi={a\bibinitperiod},
-           given={Tobias\bibnamedelima Oetiker},
-           giveni={T\bibinitperiod\bibinitdelim O\bibinitperiod},
-           prefix={et},
-           prefixi={e\bibinitperiod}}}%
+        {{hash=22c26057a5f80e2b7e75133a2dc0a177}{%
+           family={Additio},
+           familyi={A\bibinitperiod}}}%
       }
-      \strng{namehash}{da126d282a6ed41d6946f64b08dd3300}
-      \strng{fullhash}{da126d282a6ed41d6946f64b08dd3300}
-      \strng{bibnamehash}{da126d282a6ed41d6946f64b08dd3300}
-      \strng{authorbibnamehash}{da126d282a6ed41d6946f64b08dd3300}
-      \strng{authornamehash}{da126d282a6ed41d6946f64b08dd3300}
-      \strng{authorfullhash}{da126d282a6ed41d6946f64b08dd3300}
-      \field{sortinit}{a}
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{fullhash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{bibnamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authorbibnamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authornamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authorfullhash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \field{extraname}{1}
+      \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{La introducción no-tan-corta a {\LaTeX2e}}
-      \field{version}{5.03}
-      \field{year}{2014}
-      \true{nocite}
+      \field{title}{Additio - Cuaderno de notas para el profesor}
+      \field{year}{2017}
       \verb{urlraw}
-      \verb http://www.ctan.org/tex-archive/info/lshort/spanish/
+      \verb https://www.additioapp.com/es
       \endverb
       \verb{url}
-      \verb http://www.ctan.org/tex-archive/info/lshort/spanish/
+      \verb https://www.additioapp.com/es
       \endverb
     \endentry
-    \entry{borbon17}{book}{}
-      \name{author}{2}{}{%
-        {{hash=128577e007333d01560d4fa85005f54a}{%
-           family={Borbón},
-           familyi={B\bibinitperiod},
-           given={Alexánder},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9752329c44929936c0aeed3d6ececd31}{%
-           family={Mora},
-           familyi={M\bibinitperiod},
-           given={Walter},
-           giveni={W\bibinitperiod}}}%
+    \entry{additioyoutube}{online}{}
+      \name{author}{1}{}{%
+        {{hash=22c26057a5f80e2b7e75133a2dc0a177}{%
+           family={Additio},
+           familyi={A\bibinitperiod}}}%
       }
-      \name{editor}{1}{}{%
-        {{hash=f4c2ba780abb4766300b7b1edabfebe6}{%
-           family={Revista\bibnamedelimb Digital\bibnamedelima Matemática},
-           familyi={R\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim M\bibinitperiod},
-           given={Educación\bibnamedelimb e\bibnamedelima Internet},
-           giveni={E\bibinitperiod\bibinitdelim e\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+      \list{language}{1}{%
+        {spanish}%
       }
-      \list{origlanguage}{1}{%
-        {Spanish}%
+      \strng{namehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{fullhash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{bibnamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authorbibnamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authornamehash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \strng{authorfullhash}{22c26057a5f80e2b7e75133a2dc0a177}
+      \field{extraname}{2}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Additio App - Productos}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=ZE1uGlDXzok
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=ZE1uGlDXzok
+      \endverb
+    \endentry
+    \entry{appdiagrams}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e5169935bae7fb841ee72b999f1b6ecf}{%
+           family={AppDiagrams},
+           familyi={A\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Instituto Tecnológico de Costa Rica}%
+      \list{language}{1}{%
+        {english}%
       }
-      \strng{namehash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{fullhash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{bibnamehash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{authorbibnamehash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{authornamehash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{authorfullhash}{0ff6733abd29dac9557b6646124cf022}
-      \strng{editorbibnamehash}{f4c2ba780abb4766300b7b1edabfebe6}
-      \strng{editornamehash}{f4c2ba780abb4766300b7b1edabfebe6}
-      \strng{editorfullhash}{f4c2ba780abb4766300b7b1edabfebe6}
+      \strng{namehash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \strng{fullhash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \strng{bibnamehash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \strng{authorbibnamehash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \strng{authornamehash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \strng{authorfullhash}{e5169935bae7fb841ee72b999f1b6ecf}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{AppDiagrams}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://app.diagrams.net/
+      \endverb
+      \verb{url}
+      \verb https://app.diagrams.net/
+      \endverb
+    \endentry
+    \entry{hashmap}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9d2ea3506b1121365e5eec24c92c528d}{%
+           family={baeldung},
+           familyi={b\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{9d2ea3506b1121365e5eec24c92c528d}
+      \strng{fullhash}{9d2ea3506b1121365e5eec24c92c528d}
+      \strng{bibnamehash}{9d2ea3506b1121365e5eec24c92c528d}
+      \strng{authorbibnamehash}{9d2ea3506b1121365e5eec24c92c528d}
+      \strng{authornamehash}{9d2ea3506b1121365e5eec24c92c528d}
+      \strng{authorfullhash}{9d2ea3506b1121365e5eec24c92c528d}
+      \field{sortinit}{b}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TreeMap vs HashMap}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.baeldung.com/java-treemap-vs-hashmap
+      \endverb
+      \verb{url}
+      \verb https://www.baeldung.com/java-treemap-vs-hashmap
+      \endverb
+    \endentry
+    \entry{balsamiq}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6dec9f8871ee05e90d0e2b31efbe306b}{%
+           family={Balsamiq},
+           familyi={B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{6dec9f8871ee05e90d0e2b31efbe306b}
+      \strng{fullhash}{6dec9f8871ee05e90d0e2b31efbe306b}
+      \strng{bibnamehash}{6dec9f8871ee05e90d0e2b31efbe306b}
+      \strng{authorbibnamehash}{6dec9f8871ee05e90d0e2b31efbe306b}
+      \strng{authornamehash}{6dec9f8871ee05e90d0e2b31efbe306b}
+      \strng{authorfullhash}{6dec9f8871ee05e90d0e2b31efbe306b}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{isbn}{978-9977-66-227-5}
-      \field{title}{Edición de textos científicos con {\LaTeX{}}. Composición, gráficos, diseño editorial y presentaciones beamer}
-      \field{year}{2017}
-      \true{nocite}
+      \field{title}{Balsamiq Wireframes}
+      \field{year}{2021}
       \verb{urlraw}
-      \verb https://tecdigital.tec.ac.cr/revistamatematica/Libros/LATEX/LaTeX_2013.pdf
+      \verb https://balsamiq.com/wireframes/
       \endverb
       \verb{url}
-      \verb https://tecdigital.tec.ac.cr/revistamatematica/Libros/LATEX/LaTeX_2013.pdf
+      \verb https://balsamiq.com/wireframes/
       \endverb
     \endentry
-    \entry{cascales00}{book}{}
+    \entry{bogdandy2020digital}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=a6676efe4e9da03d8bbadc823cef72b5}{%
+           family={Bogdandy},
+           familyi={B\bibinitperiod},
+           given={Bence},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3e83f99656a74d7027b4bb65137183b5}{%
+           family={Tamas},
+           familyi={T\bibinitperiod},
+           given={Judit},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9edd49bcb66358a85f03d0361f9d4645}{%
+           family={Toth},
+           familyi={T\bibinitperiod},
+           given={Zsolt},
+           giveni={Z\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \strng{fullhash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \strng{bibnamehash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \strng{authorbibnamehash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \strng{authornamehash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \strng{authorfullhash}{6a2bc6b7ff6aa28c3a33a3c64e53c22e}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2020 11th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)}
+      \field{title}{Digital transformation in education during covid-19: A case study}
+      \field{year}{2020}
+      \field{pages}{000173\bibrangedash 000178}
+      \range{pages}{6}
+    \endentry
+    \entry{texmaker}{online}{}
+      \name{author}{1}{}{%
+        {{hash=6baa0ed554be58fa94daa3f2f507d392}{%
+           family={Brachet},
+           familyi={B\bibinitperiod},
+           given={Pascal},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{6baa0ed554be58fa94daa3f2f507d392}
+      \strng{fullhash}{6baa0ed554be58fa94daa3f2f507d392}
+      \strng{bibnamehash}{6baa0ed554be58fa94daa3f2f507d392}
+      \strng{authorbibnamehash}{6baa0ed554be58fa94daa3f2f507d392}
+      \strng{authornamehash}{6baa0ed554be58fa94daa3f2f507d392}
+      \strng{authorfullhash}{6baa0ed554be58fa94daa3f2f507d392}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{TexMaker}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.xm1math.net/texmaker/
+      \endverb
+      \verb{url}
+      \verb https://www.xm1math.net/texmaker/
+      \endverb
+    \endentry
+    \entry{apuntes}{book}{}
       \name{author}{2}{}{%
         {{hash=6922c15dbbe79d9bed5e8abd017ec5e3}{%
            family={Caballero\bibnamedelima Muñoz-Reja},
@@ -132,295 +261,576 @@
       \field{langid}{spanish}
       \field{title}{Apuntes de Ingeniería del Software II}
       \field{year}{2019}
-      \true{nocite}
     \endentry
-    \entry{cascales03}{book}{}
+    \entry{educamosclm}{online}{}
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labeltitlesource}{title}
+      \field{title}{EducamosCLM}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://educamosclm.castillalamancha.es/
+      \endverb
+      \verb{url}
+      \verb https://educamosclm.castillalamancha.es/
+      \endverb
+    \endentry
+    \entry{fletcher2020digital}{article}{}
       \name{author}{2}{}{%
-        {{hash=35143fc928260fc4c4e8b3a5cc6385ba}{%
-           family={Cascales},
-           familyi={C\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=b13f9ee6044e4c43d8ba55d08d423281}{%
-           family={Lucas},
-           familyi={L\bibinitperiod},
-           given={P.},
-           giveni={P\bibinitperiod}}}%
+        {{hash=f1011b8798a396e56b4af790461736f8}{%
+           family={Fletcher},
+           familyi={F\bibinitperiod},
+           given={Gordon},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ab3adee2f2d6975ffde16e710cdcef08}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={Marie},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \strng{fullhash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \strng{bibnamehash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \strng{authorbibnamehash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \strng{authornamehash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \strng{authorfullhash}{dc3eb8dfa2c82def67f13cd4daf40f57}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Information Management}
+      \field{title}{Digital transformation during a lockdown}
+      \field{volume}{55}
+      \field{year}{2020}
+      \field{pages}{102\bibrangedash 185}
+      \range{pages}{84}
+    \endentry
+    \entry{apachepoi}{online}{}
+      \name{author}{1}{}{%
+        {{hash=99a4318af9169d37540efb143afd419f}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={The\bibnamedelima Apache},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{99a4318af9169d37540efb143afd419f}
+      \strng{fullhash}{99a4318af9169d37540efb143afd419f}
+      \strng{bibnamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authorbibnamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authornamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authorfullhash}{99a4318af9169d37540efb143afd419f}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Apache Poi}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://poi.apache.org/
+      \endverb
+      \verb{url}
+      \verb https://poi.apache.org/
+      \endverb
+    \endentry
+    \entry{netbeans}{online}{}
+      \name{author}{1}{}{%
+        {{hash=99a4318af9169d37540efb143afd419f}{%
+           family={Foundation},
+           familyi={F\bibinitperiod},
+           given={The\bibnamedelima Apache},
+           giveni={T\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{99a4318af9169d37540efb143afd419f}
+      \strng{fullhash}{99a4318af9169d37540efb143afd419f}
+      \strng{bibnamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authorbibnamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authornamehash}{99a4318af9169d37540efb143afd419f}
+      \strng{authorfullhash}{99a4318af9169d37540efb143afd419f}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NetBeans}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://netbeans.apache.org/
+      \endverb
+      \verb{url}
+      \verb https://netbeans.apache.org/
+      \endverb
+    \endentry
+    \entry{iconsforfree}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e283be8261738a7c882c6a7a63acecca}{%
+           family={free},
+           familyi={f\bibinitperiod},
+           given={Icons},
+           giveni={I\bibinitperiod},
+           prefix={for},
+           prefixi={f\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{e283be8261738a7c882c6a7a63acecca}
+      \strng{fullhash}{e283be8261738a7c882c6a7a63acecca}
+      \strng{bibnamehash}{e283be8261738a7c882c6a7a63acecca}
+      \strng{authorbibnamehash}{e283be8261738a7c882c6a7a63acecca}
+      \strng{authornamehash}{e283be8261738a7c882c6a7a63acecca}
+      \strng{authorfullhash}{e283be8261738a7c882c6a7a63acecca}
+      \field{sortinit}{f}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Icons for free}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://icons-for-free.com/
+      \endverb
+      \verb{url}
+      \verb https://icons-for-free.com/
+      \endverb
+    \endentry
+    \entry{pud}{article}{}
+      \name{author}{1}{}{%
+        {{hash=017b356789a63ed01cd5776e871b6f1c}{%
+           family={Gil},
+           familyi={G\bibinitperiod},
+           given={Robin\bibnamedelimb Alberto\bibnamedelima Castro},
+           giveni={R\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{017b356789a63ed01cd5776e871b6f1c}
+      \strng{fullhash}{017b356789a63ed01cd5776e871b6f1c}
+      \strng{bibnamehash}{017b356789a63ed01cd5776e871b6f1c}
+      \strng{authorbibnamehash}{017b356789a63ed01cd5776e871b6f1c}
+      \strng{authornamehash}{017b356789a63ed01cd5776e871b6f1c}
+      \strng{authorfullhash}{017b356789a63ed01cd5776e871b6f1c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Sistemas y Telemática}
+      \field{number}{3}
+      \field{title}{Estructura básica del proceso unificado de desarrollo de software}
+      \field{volume}{2}
+      \field{year}{2004}
+      \field{pages}{29\bibrangedash 41}
+      \range{pages}{13}
+    \endentry
+    \entry{jfreechart}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d914915b9636943df69405ed649bc1ae}{%
+           family={Gilbert},
+           familyi={G\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d914915b9636943df69405ed649bc1ae}
+      \strng{fullhash}{d914915b9636943df69405ed649bc1ae}
+      \strng{bibnamehash}{d914915b9636943df69405ed649bc1ae}
+      \strng{authorbibnamehash}{d914915b9636943df69405ed649bc1ae}
+      \strng{authornamehash}{d914915b9636943df69405ed649bc1ae}
+      \strng{authorfullhash}{d914915b9636943df69405ed649bc1ae}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{JFreeChart}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.jfree.org/jfreechart/
+      \endverb
+      \verb{url}
+      \verb https://www.jfree.org/jfreechart/
+      \endverb
+    \endentry
+    \entry{git}{online}{}
+      \name{author}{1}{}{%
+        {{hash=0bcc70105ad279503e31fe7b3f47b665}{%
+           family={Git},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{fullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{bibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorbibnamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authornamehash}{0bcc70105ad279503e31fe7b3f47b665}
+      \strng{authorfullhash}{0bcc70105ad279503e31fe7b3f47b665}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Git}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://git-scm.com/
+      \endverb
+      \verb{url}
+      \verb https://git-scm.com/
+      \endverb
+    \endentry
+    \entry{github}{online}{}
+      \name{author}{1}{}{%
+        {{hash=d3b7c913cd04ebfec0e9ec32cb6fd58c}{%
+           family={GitHub},
+           familyi={G\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{fullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{bibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorbibnamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authornamehash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \strng{authorfullhash}{d3b7c913cd04ebfec0e9ec32cb6fd58c}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{GitHub}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://github.com/
+      \endverb
+      \verb{url}
+      \verb https://github.com/
+      \endverb
+    \endentry
+    \entry{googleclassroom}{online}{}
+      \name{author}{1}{}{%
+        {{hash=8b36e9207c24c76e6719268e49201d94}{%
+           family={Google},
+           familyi={G\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {spanish}%
       }
-      \list{publisher}{1}{%
-        {Pearson Education}%
-      }
-      \strng{namehash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \strng{fullhash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \strng{bibnamehash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \strng{authorbibnamehash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \strng{authornamehash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \strng{authorfullhash}{a97ac497188c22caac3cc3bb5d4a8208}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{isbn}{9788420537795}
-      \field{langid}{spanish}
-      \field{title}{El Libro de {\LaTeX}}
-      \field{year}{2005}
-      \true{nocite}
-    \endentry
-    \entry{goos04}{book}{}
-      \name{author}{3}{}{%
-        {{hash=cea30c44975fa955530d08d547542cbe}{%
-           family={Goossens},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=5c00b9ef0c08e422be978eb73911c935}{%
-           family={Mittelbach},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-        {{hash=e1d742d7d142463bb1f5e60a0d317ba1}{%
-           family={Samarin},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley Reading, MA}%
-      }
-      \strng{namehash}{96381a4771a9a0efa13abfbe8613ee89}
-      \strng{fullhash}{96381a4771a9a0efa13abfbe8613ee89}
-      \strng{bibnamehash}{96381a4771a9a0efa13abfbe8613ee89}
-      \strng{authorbibnamehash}{96381a4771a9a0efa13abfbe8613ee89}
-      \strng{authornamehash}{96381a4771a9a0efa13abfbe8613ee89}
-      \strng{authorfullhash}{96381a4771a9a0efa13abfbe8613ee89}
+      \strng{namehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{fullhash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{bibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorbibnamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authornamehash}{8b36e9207c24c76e6719268e49201d94}
+      \strng{authorfullhash}{8b36e9207c24c76e6719268e49201d94}
       \field{sortinit}{G}
       \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{langid}{english}
-      \field{title}{The {\LaTeX{}} companion}
-      \field{year}{2004}
-      \true{nocite}
+      \field{title}{Google Classroom}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://classroom.google.com/
+      \endverb
+      \verb{url}
+      \verb https://classroom.google.com/
+      \endverb
     \endentry
-    \entry{goos07}{book}{}
-      \name{author}{3}{}{%
-        {{hash=cea30c44975fa955530d08d547542cbe}{%
-           family={Goossens},
-           familyi={G\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=9505fd7ab47874950a19ce3799ed90a4}{%
-           family={Rahtz},
-           familyi={R\bibinitperiod},
-           given={S.},
-           giveni={S\bibinitperiod}}}%
-        {{hash=5c00b9ef0c08e422be978eb73911c935}{%
-           family={Mittelbach},
-           familyi={M\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley Reading, MA}%
-      }
-      \strng{namehash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \strng{fullhash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \strng{bibnamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \strng{authorbibnamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \strng{authornamehash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \strng{authorfullhash}{e6a193e6d5538e88a73a51bb1ac528e9}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{langid}{english}
-      \field{title}{The {\LaTeX{}} graphics companion}
-      \field{year}{2007}
-      \true{nocite}
-    \endentry
-    \entry{kopka04}{book}{}
-      \name{author}{2}{}{%
-        {{hash=a5274189f6c50d5683a7965c541183b7}{%
-           family={Kopka},
-           familyi={K\bibinitperiod},
-           given={H.},
-           giveni={H\bibinitperiod}}}%
-        {{hash=627e491b34b4b8fd0c7869892827c596}{%
-           family={Daly},
-           familyi={D\bibinitperiod},
-           given={{P.W.}},
-           giveni={P\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {english}%
-      }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{69b82668922b197cc58c729dd3b8415e}
-      \strng{fullhash}{69b82668922b197cc58c729dd3b8415e}
-      \strng{bibnamehash}{69b82668922b197cc58c729dd3b8415e}
-      \strng{authorbibnamehash}{69b82668922b197cc58c729dd3b8415e}
-      \strng{authornamehash}{69b82668922b197cc58c729dd3b8415e}
-      \strng{authorfullhash}{69b82668922b197cc58c729dd3b8415e}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{langid}{english}
-      \field{title}{A guide to {\LaTeX}}
-      \field{year}{2004}
-      \true{nocite}
-    \endentry
-    \entry{lamport94}{book}{}
+    \entry{paintnet}{online}{}
       \name{author}{1}{}{%
-        {{hash=ef82223e035dbb62f84cb1c0782df38c}{%
-           family={Lamport},
+        {{hash=156612a51a55e339051f3cc145ec7098}{%
+           family={LLC},
            familyi={L\bibinitperiod},
-           given={L.},
-           giveni={L\bibinitperiod}}}%
+           prefix={dotPDN},
+           prefixi={d\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \list{publisher}{1}{%
-        {Addison-Wesley}%
-      }
-      \strng{namehash}{ef82223e035dbb62f84cb1c0782df38c}
-      \strng{fullhash}{ef82223e035dbb62f84cb1c0782df38c}
-      \strng{bibnamehash}{ef82223e035dbb62f84cb1c0782df38c}
-      \strng{authorbibnamehash}{ef82223e035dbb62f84cb1c0782df38c}
-      \strng{authornamehash}{ef82223e035dbb62f84cb1c0782df38c}
-      \strng{authorfullhash}{ef82223e035dbb62f84cb1c0782df38c}
+      \strng{namehash}{156612a51a55e339051f3cc145ec7098}
+      \strng{fullhash}{156612a51a55e339051f3cc145ec7098}
+      \strng{bibnamehash}{156612a51a55e339051f3cc145ec7098}
+      \strng{authorbibnamehash}{156612a51a55e339051f3cc145ec7098}
+      \strng{authornamehash}{156612a51a55e339051f3cc145ec7098}
+      \strng{authorfullhash}{156612a51a55e339051f3cc145ec7098}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{langid}{english}
-      \field{title}{{\LaTeX}: A document preparation system}
-      \field{year}{1994}
-      \true{nocite}
-    \endentry
-    \entry{salido10}{online}{}
-      \name{author}{1}{}{%
-        {{hash=52a455f5fbcad98e21de0712c6fe35b1}{%
-           family={Salido},
-           familyi={S\bibinitperiod},
-           given={Jesús},
-           giveni={J\bibinitperiod}}}%
-      }
-      \list{language}{1}{%
-        {spanish}%
-      }
-      \list{organization}{1}{%
-        {Universidad de Castilla-La Mancha}%
-      }
-      \strng{namehash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \strng{fullhash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \strng{bibnamehash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \strng{authorbibnamehash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \strng{authornamehash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \strng{authorfullhash}{52a455f5fbcad98e21de0712c6fe35b1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{Apuntes de la {UCLM}}
-      \field{langid}{spanish}
-      \field{title}{Curso: {\LaTeX{}} esencial para preparación de TFG, Tesis y otros documentos académicos}
-      \field{urlday}{12}
-      \field{urlmonth}{2}
-      \field{urlyear}{2017}
-      \field{year}{2010}
-      \field{urldateera}{ce}
+      \field{title}{Paint.net}
+      \field{year}{2021}
       \true{nocite}
       \verb{urlraw}
-      \verb http://visilab.etsii.uclm.es/?page_id=1468
+      \verb https://www.getpaint.net/
       \endverb
       \verb{url}
-      \verb http://visilab.etsii.uclm.es/?page_id=1468
+      \verb https://www.getpaint.net/
       \endverb
     \endentry
-    \entry{wikibookLaTex10}{online}{}
+    \entry{excelicon}{online}{}
       \name{author}{1}{}{%
-        {{hash=4208669ced5e30d9a5376405294021e0}{%
-           family={WikiMedia},
-           familyi={W\bibinitperiod}}}%
+        {{hash=140864078aeca1c7c35b4beb33c53c34}{%
+           family={Microsoft},
+           familyi={M\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {english}%
       }
-      \strng{namehash}{4208669ced5e30d9a5376405294021e0}
-      \strng{fullhash}{4208669ced5e30d9a5376405294021e0}
-      \strng{bibnamehash}{4208669ced5e30d9a5376405294021e0}
-      \strng{authorbibnamehash}{4208669ced5e30d9a5376405294021e0}
-      \strng{authornamehash}{4208669ced5e30d9a5376405294021e0}
-      \strng{authorfullhash}{4208669ced5e30d9a5376405294021e0}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{bibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorbibnamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authornamehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{authorfullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{langid}{spanish}
-      \field{title}{{\LaTeX{} Wikibook}}
-      \field{urlday}{2}
-      \field{urlmonth}{2}
-      \field{urlyear}{2017}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \true{nocite}
+      \field{title}{Microsoft Excel}
+      \field{year}{2017}
       \verb{urlraw}
-      \verb http://en.wikibooks.org/wiki/LaTeX
+      \verb https://www.microsoft.com/es-es/microsoft-365/excel
       \endverb
       \verb{url}
-      \verb http://en.wikibooks.org/wiki/LaTeX
+      \verb https://www.microsoft.com/es-es/microsoft-365/excel
       \endverb
     \endentry
-    \entry{zozaya17}{online}{}
+    \entry{mysql}{online}{}
       \name{author}{1}{}{%
-        {{hash=389722336bfc008744b6784cda045c4a}{%
-           family={Zozaya},
-           familyi={Z\bibinitperiod},
-           given={Leonor},
-           giveni={L\bibinitperiod}}}%
+        {{hash=62a004b95946bb97541afa471dcca73a}{%
+           family={MySQL},
+           familyi={M\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{fullhash}{62a004b95946bb97541afa471dcca73a}
+      \strng{bibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorbibnamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authornamehash}{62a004b95946bb97541afa471dcca73a}
+      \strng{authorfullhash}{62a004b95946bb97541afa471dcca73a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{MySQL Workbench}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://www.mysql.com/products/workbench/
+      \endverb
+      \verb{url}
+      \verb https://www.mysql.com/products/workbench/
+      \endverb
+    \endentry
+    \entry{java}{online}{}
+      \name{author}{1}{}{%
+        {{hash=30162ed78b6c10f731411f2fc440c24f}{%
+           family={Oracle},
+           familyi={O\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {spanish}%
       }
-      \strng{namehash}{389722336bfc008744b6784cda045c4a}
-      \strng{fullhash}{389722336bfc008744b6784cda045c4a}
-      \strng{bibnamehash}{389722336bfc008744b6784cda045c4a}
-      \strng{authorbibnamehash}{389722336bfc008744b6784cda045c4a}
-      \strng{authornamehash}{389722336bfc008744b6784cda045c4a}
-      \strng{authorfullhash}{389722336bfc008744b6784cda045c4a}
-      \field{sortinit}{Z}
-      \field{sortinithash}{96892c0b0a36bb8557c40c49813d48b3}
+      \strng{namehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{fullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{bibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorbibnamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authornamehash}{30162ed78b6c10f731411f2fc440c24f}
+      \strng{authorfullhash}{30162ed78b6c10f731411f2fc440c24f}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Redacción de textos. Recomendaciones para presentar trabajos académicos}
-      \field{urlday}{21}
-      \field{urlmonth}{6}
-      \field{urlyear}{2019}
-      \field{year}{2012-2017}
-      \field{urldateera}{ce}
-      \true{nocite}
+      \field{title}{Java}
+      \field{year}{2021}
       \verb{urlraw}
-      \verb http://redaccion.hypotheses.org/
+      \verb https://www.java.com/es/
       \endverb
       \verb{url}
-      \verb http://redaccion.hypotheses.org/
+      \verb https://www.java.com/es/
+      \endverb
+    \endentry
+    \entry{overleaf}{online}{}
+      \name{author}{1}{}{%
+        {{hash=80d685e90fa23d7996a66e45aa2d24ad}{%
+           family={Overleaf},
+           familyi={O\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{fullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{bibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorbibnamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authornamehash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \strng{authorfullhash}{80d685e90fa23d7996a66e45aa2d24ad}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Overleaf}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://es.overleaf.com/
+      \endverb
+      \verb{url}
+      \verb https://es.overleaf.com/
+      \endverb
+    \endentry
+    \entry{googleclassroomyoutube}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e03bd29b528a96dea9d50dc4cec2eacd}{%
+           family={princippia},
+           familyi={p\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \strng{fullhash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \strng{bibnamehash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \strng{authorbibnamehash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \strng{authornamehash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \strng{authorfullhash}{e03bd29b528a96dea9d50dc4cec2eacd}
+      \field{sortinit}{p}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Empieza a usar Google Classroom en 5 pasos}
+      \field{year}{2015}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=lzqex0u7850
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=lzqex0u7850
+      \endverb
+    \endentry
+    \entry{procreate}{online}{}
+      \name{author}{1}{}{%
+        {{hash=edaf2e99e994a881240003beabea90e7}{%
+           family={Procreate},
+           familyi={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{edaf2e99e994a881240003beabea90e7}
+      \strng{fullhash}{edaf2e99e994a881240003beabea90e7}
+      \strng{bibnamehash}{edaf2e99e994a881240003beabea90e7}
+      \strng{authorbibnamehash}{edaf2e99e994a881240003beabea90e7}
+      \strng{authornamehash}{edaf2e99e994a881240003beabea90e7}
+      \strng{authorfullhash}{edaf2e99e994a881240003beabea90e7}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Procreate}
+      \field{year}{2021}
+      \verb{urlraw}
+      \verb https://procreate.art/
+      \endverb
+      \verb{url}
+      \verb https://procreate.art/
+      \endverb
+    \endentry
+    \entry{disquete}{online}{}
+      \name{author}{1}{}{%
+        {{hash=21ae59392da89beaad951b3ca91a1104}{%
+           family={Saiyed},
+           familyi={S\bibinitperiod},
+           given={Sajid},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{21ae59392da89beaad951b3ca91a1104}
+      \strng{fullhash}{21ae59392da89beaad951b3ca91a1104}
+      \strng{bibnamehash}{21ae59392da89beaad951b3ca91a1104}
+      \strng{authorbibnamehash}{21ae59392da89beaad951b3ca91a1104}
+      \strng{authornamehash}{21ae59392da89beaad951b3ca91a1104}
+      \strng{authorfullhash}{21ae59392da89beaad951b3ca91a1104}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The "Save icon debate"}
+      \field{year}{2013}
+      \verb{urlraw}
+      \verb https://sajidsaiyed.medium.com/the-save-icon-debate-fa376df3a9c6
+      \endverb
+      \verb{url}
+      \verb https://sajidsaiyed.medium.com/the-save-icon-debate-fa376df3a9c6
+      \endverb
+    \endentry
+    \entry{educamosclmyoutube}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5de323de89c0a927cbf4a6357968a1aa}{%
+           family={Soria},
+           familyi={S\bibinitperiod},
+           given={Paco},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {spanish}%
+      }
+      \strng{namehash}{5de323de89c0a927cbf4a6357968a1aa}
+      \strng{fullhash}{5de323de89c0a927cbf4a6357968a1aa}
+      \strng{bibnamehash}{5de323de89c0a927cbf4a6357968a1aa}
+      \strng{authorbibnamehash}{5de323de89c0a927cbf4a6357968a1aa}
+      \strng{authornamehash}{5de323de89c0a927cbf4a6357968a1aa}
+      \strng{authorfullhash}{5de323de89c0a927cbf4a6357968a1aa}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Crear exámenes - EducamosCLM}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=ZE1uGlDXzok
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=ZE1uGlDXzok
+      \endverb
+    \endentry
+    \entry{tablesgenerator}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a985835be895ef48d6e2ea6c048e655c}{%
+           family={TablesGenerator},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {english}%
+      }
+      \strng{namehash}{a985835be895ef48d6e2ea6c048e655c}
+      \strng{fullhash}{a985835be895ef48d6e2ea6c048e655c}
+      \strng{bibnamehash}{a985835be895ef48d6e2ea6c048e655c}
+      \strng{authorbibnamehash}{a985835be895ef48d6e2ea6c048e655c}
+      \strng{authornamehash}{a985835be895ef48d6e2ea6c048e655c}
+      \strng{authorfullhash}{a985835be895ef48d6e2ea6c048e655c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{tablesgenerator}
+      \field{year}{2021}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.tablesgenerator.com/
+      \endverb
+      \verb{url}
+      \verb https://www.tablesgenerator.com/
       \endverb
     \endentry
   \enddatalist

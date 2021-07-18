@@ -1,17 +1,14 @@
 [0] Config.pm:311> INFO - This is Biber 2.16
 [0] Config.pm:314> INFO - Logfile is 'uclmTFGesi.blg'
-[155] biber-MSWIN64:340> INFO - === 
-[195] Biber.pm:415> INFO - Reading 'uclmTFGesi.bcf'
-[329] Biber.pm:949> INFO - Using all citekeys in bib section 0
-[347] Biber.pm:4340> INFO - Processing section 0
-[362] Biber.pm:4531> INFO - Looking for bibtex format file 'biblioTFG.bib' for section 0
-[412] bibtex.pm:1689> INFO - LaTeX decoding ...
-[436] bibtex.pm:1494> INFO - Found BibTeX data source 'biblioTFG.bib'
-[474] Utils.pm:395> WARN - legacy year field '2012-2017' in entry 'zozaya17' is not an integer - this will probably not sort properly.
-[528] Utils.pm:395> WARN - BibTeX subsystem: C:\Users\lucia\AppData\Local\Temp\biber_tmp_XxZr\c66963caf14a85c68a656c491255f2c6_18532.utf8, line 6, warning: 107 characters of junk seen at toplevel
-[550] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
-[550] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[550] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
-[568] bbl.pm:654> INFO - Writing 'uclmTFGesi.bbl' with encoding 'UTF-8'
-[574] bbl.pm:757> INFO - Output to uclmTFGesi.bbl
-[574] Biber.pm:128> INFO - WARNINGS: 2
+[141] biber-MSWIN64:340> INFO - === 
+[184] Biber.pm:415> INFO - Reading 'uclmTFGesi.bcf'
+[326] Biber.pm:949> INFO - Using all citekeys in bib section 0
+[345] Biber.pm:4340> INFO - Processing section 0
+[361] Biber.pm:4531> INFO - Looking for bibtex format file 'biblioTFG.bib' for section 0
+[414] bibtex.pm:1689> INFO - LaTeX decoding ...
+[448] bibtex.pm:1494> INFO - Found BibTeX data source 'biblioTFG.bib'
+[597] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[597] UCollate.pm:68> INFO - Overriding locale 'es-ES' defaults 'variable = shifted' with 'variable = non-ignorable'
+[597] Biber.pm:4168> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'es-ES'
+[629] bbl.pm:654> INFO - Writing 'uclmTFGesi.bbl' with encoding 'UTF-8'
+[641] bbl.pm:757> INFO - Output to uclmTFGesi.bbl

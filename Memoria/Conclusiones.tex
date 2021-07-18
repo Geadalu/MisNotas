@@ -1,5 +1,29 @@
 \chapter{Conclusiones}
-\label{cap:Conclusiones}
+\label{cap:conclusiones}
+En este último capítulo se habla de las conclusiones extraídas de este trabajo y se proponen algunas vías para continuarlo o mejorarlo.
 
-En este capítulo se realizará un juicio crítico y discusión sobre los resultados obtenidos. Si es pertinente deberá incluir información sobre trabajos derivados como publicaciones o ponencias, así como trabajos futuros, solo si estos están planificados en el momento en que se redacta el texto. Además incluirá obligatoriamente la explicación de cómo el trabajo realizado satisface las competencias de la tecnología específica cursada.
+\section{Conclusiones}
+En este trabajo se ha desarrollado una herramienta intuitiva y usable para una cómoda calificación de los docentes a su alumnado. Se han conseguido todos los objetivos propuestos en el capítulo \ref{cap:objetivo} e incluso se han añadido algunas funcionalidades nuevas que no se pensaron al principio.
 
+En comparación a las aplicaciones existentes de las que se habló en el capítulo \ref{aplicacionesexistentes}, se considera que el resultado de este proyecto las ha mejorado en los siguientes puntos:
+\begin{enumerate}
+	\item \textbf{Privacidad de los datos}. Todas las aplicaciones que se investigaron tenían acceso a Internet. Si bien esto, para sus especificaciones, era necesario (debido a que todas ellas implementaban la capacidad de comunicación entre docente y alumnado), también supone un mínimo riesgo de filtración de datos. La aplicación desarrollada, al ser de escritorio, no encuentra ese problema y sus datos están completamente seguros.
+	\item \textbf{Alta personalización de la interfaz gráfica}. A la hora de trabajar con un ordenador, hay algunas personas que necesitan aumentar el tamaño de la letra, o crear un mayor contraste entre los elementos que se muestran en la pantalla. Esta aplicación lo permite, posibilitando una sesión de trabajo lo más cómoda y agradable posible.
+	\item \textbf{Control de competencias}. Si bien Additio \ref{sec:additio} era la única aplicación que permitía un control de competencias, en la aplicación desarrollada se permiten visualizar con mayor claridad en cualquier momento mediante la funcionalidad "Informe del trimestre".
+\end{enumerate}
+
+Para terminar, comentar que gracias a la prueba de usabilidad realizada, se puede concluir que el desarrollo ha sido un éxito, aunque podría mejorar en varios aspectos que se discuten en la sección a continuación.
+	
+
+\section{Propuestas de trabajo futuro}
+\label{sec:trabajofuturo}
+Como posible continuación del desarrollo de esta aplicación, se proponen a continuación varios puntos que añaden funcionalidades nuevas o mejoran las existentes.
+
+Estas son ideas que han ido surgiendo a lo largo del desarrollo, y que podrían beneficiar a la aplicación de distintas maneras.
+
+\begin{itemize}
+	\item \textbf{Mejora de la interfaz gráfica}. En general, el aspecto de la aplicación es primitivo y simple. Esto es un importante aspecto a tener en cuenta puesto que podría aumentar el número de docentes que desearan utilizar esta aplicación, además de mejorar la experiencia de usuario.
+	\item \textbf{Adición del rol de administrador}. En el momento de finalización de este proyecto solo hay un tipo de usuario que puede acceder a la aplicación, y este es el maestro. Sin embargo, se ha considerado que el sistema podría beneficiarse de la existencia de un rol de administrador, que accediera a una pantalla especial para cargar nuevas asignaturas y nuevos cursos al docente, y para que inicializara las aplicaciones para los docentes nuevos en el centro o cada inicio de curso.
+	\item \textbf{Más opciones de personalización}. Varios de los comentarios recogidos en la prueba de usabilidad [\ref{sub:pruebausabilidad}] se orientan a la personalización. Se podría implementar un sistema para calificar de manera diferente, en lugar de solo con un número para la nota y un comentario, de manera menos sistemática para tener en cuenta otros aspectos aparte de la nota.
+	\item \textbf{Posibilidad de apuntar si se ha hecho la tarea}. También se podría implementar un sistema que permita al docente apuntar los días que el alumno ha hecho la tarea para casa e incluso calificarla. También, en la propia ventana de calificación de tareas, si el alumno ha terminado o no haciendo esa tarea.
+\end{itemize}

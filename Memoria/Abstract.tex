@@ -1,0 +1,33 @@
+%--- Ajustes del documento.
+\pagestyle{plain}	% Páginas sólo con numeración inferior al pie
+
+% -------------------------
+%
+% RESUMEN:
+% OJO: Si es preciso cambiar manualmente orden Resumen <-> Abstract
+%
+% -------------------------
+%--- Resumen en español
+\selectlanguage{english} % Selección de idioma del resumen.
+\cleardoublepage % Se incluye para modificar el contador de página antes de añadir bookmark
+\phantomsection  % OJO: Necesario con hyperref
+\pdfbookmark[0]{Resumen}{idx_resumen}% idx_resumen.0 % Bookmark en PDF
+
+\begin{abstract}
+% EDITAR: Resumen (máx. 1 pág.)
+\begin{center}
+\end{center} 
+This Final Degree Project consists of the development of a desktop application for the comfort and convenience of teachers when it comes to storing their students' grades.
+\newline
+This application, developed in Java using a cascade methodology, consists of a wizard that the teacher will run to store tests, grades, competencies and observations of their students, sorted by subjects and courses.
+\newline
+
+\end{abstract}
+%---
+
+%--- Ajuste del idioma para el resto del documento.
+\ifspanish
+	\selectlanguage{spanish}% Emplea idioma español
+\else
+	\selectlanguage{english}% Emplea idioma inglés
+\fi
