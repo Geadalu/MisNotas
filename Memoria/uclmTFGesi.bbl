@@ -196,6 +196,7 @@
       \field{booktitle}{2020 11th IEEE International Conference on Cognitive Infocommunications (CogInfoCom)}
       \field{title}{Digital transformation in education during covid-19: A case study}
       \field{year}{2020}
+      \true{nocite}
       \field{pages}{000173\bibrangedash 000178}
       \range{pages}{6}
     \endentry
@@ -222,6 +223,7 @@
       \field{labeltitlesource}{title}
       \field{title}{TexMaker}
       \field{year}{2021}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.xm1math.net/texmaker/
       \endverb
@@ -366,6 +368,7 @@
       \field{labeltitlesource}{title}
       \field{title}{NetBeans}
       \field{year}{2021}
+      \true{nocite}
       \verb{urlraw}
       \verb https://netbeans.apache.org/
       \endverb
@@ -510,6 +513,7 @@
       \field{labeltitlesource}{title}
       \field{title}{GitHub}
       \field{year}{2021}
+      \true{nocite}
       \verb{urlraw}
       \verb https://github.com/
       \endverb
@@ -625,6 +629,7 @@
       \field{labeltitlesource}{title}
       \field{title}{MySQL Workbench}
       \field{year}{2021}
+      \true{nocite}
       \verb{urlraw}
       \verb https://www.mysql.com/products/workbench/
       \endverb
@@ -737,6 +742,7 @@
       \field{labeltitlesource}{title}
       \field{title}{Procreate}
       \field{year}{2021}
+      \true{nocite}
       \verb{urlraw}
       \verb https://procreate.art/
       \endverb

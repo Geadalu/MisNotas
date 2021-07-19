@@ -1,22 +1,20 @@
 \chapter{Resultados}
 \label{cap:resultados}
 
-En este capítulo se describe la aplicación del método de trabajo presentado en el capítulo \ref{cap:MiMetodologia} usando la metodología \gls{pud} en este caso concreto, mostrando los elementos (modelos, diagramas, especificaciones, etc.) más importantes y cómo satisface los objetivos y requisitos planteados.
-
-También se explica la evolución de esta aplicación, desde la captura de requisitos hasta el resultado final.
+En este capítulo se describen los resultados obtenidos al método de trabajo presentado en el capítulo \ref{cap:MiMetodologia} usando la metodología \gls{pud} en este caso concreto, mostrando los elementos (modelos, diagramas, especificaciones, etc.) más importantes.
 
 \section{Arquitectura de la aplicación}
-Para construir la arquitectura de la aplicación se ha optado por un modelo mixto Vista-Controlador, donde las capas que contienen los controladores y los objetos se conectan con la base de datos, y la capa con las interfaces, hace llamadas a los controladores y objetos para operar con ella.
+Para diseñar la arquitectura de la aplicación se ha optado por un modelo mixto Vista-Controlador, donde las capas que contienen los controladores y los objetos se conectan con la base de datos, y la capa con las interfaces, hace llamadas a los controladores y objetos para operar con ella.
 
 \begin{itemize}
-	\item \textbf{Capa de vistas:} esta capa representa las interfaces del programa.
-	\item \textbf{Capa de controladores:} esta capa se comunica con la base de datos, y hace operaciones utilizando la capa de objetos.
-	\item \textbf{Capa de objetos:} esta capa se comunica con la base de datos. Contiene todos los objetos del programa.
+	\item \textbf{Capa de vistas:} representa las interfaces del programa.
+	\item \textbf{Capa de controladores:} se comunica con la base de datos y hace operaciones utilizando la capa de objetos.
+	\item \textbf{Capa de objetos:} se comunica con la base de datos, contiene todos los objetos del programa.
 \end{itemize}
 
-Se es consciente de que, si fuera un modelo vista-controlador puro, los controladores no deberían acceder a la base de datos. Esto se ha permitido por, entre otras cosas, permitir un nivel mayor de optimización en el código del que se habla en \ref{sub:optimizarcodigo}
+Se es consciente de que, si fuera un modelo vista-controlador puro, los controladores no deberían acceder a la base de datos. Esto se ha realizado para, entre otras cosas, permitir un nivel mayor de optimización en el código del que se habla en la sección \ref{sub:optimizarcodigo}
 
-En este documento, se refiere como único usuario al maestro que usará la aplicación.
+En este documento, se refiere como único usuario al docente que usará la aplicación.
 
 
 \section{Requisitos del sistema}
@@ -28,37 +26,41 @@ Se han dividido los requisitos funcionales según el método descrito en la secc
 Requisitos \textit{Must have}:
 \begin{itemize}
 	\item \textbf{MH1 - Asignación de asignaturas al usuario:} cada usuario tendrá asignadas las asignaturas de las que es titular durante el curso. 
-	\item \textbf{MH2 - Creación de pruebas:} el usuario podrá crear pruebas en las diferentes asignaturas de las que es titular y asignarlas a un número de alumnos.
-	\item \textbf{MH3 - Borrado de pruebas:} el usuario podrá borrar una prueba previamente creada, así como las notas de los alumnos que ya hayan sido calificados en esa prueba.
-	\item \textbf{MH4 - Calificación de pruebas:} el usuario podrá calificar a los alumnos en las pruebas que cree para ellos. La calificación requiere una nota, y un comentario sobre la nota en caso de que el usuario requiera hacer alguna explicación.
-	\item \textbf{MH5 - Visualización de las notas del alumnado:} el usuario debe poder visualizar las notas que ha calificado, así como las notas finales de cada trimestre y la nota final de la asignatura, para cada alumno.
-	\item \textbf{MH6 - Visualización del alumnado para cada asignatura:} el usuario podrá ver un listado de los alumnos que corresponden a cada asignatura.
+	\item \textbf{MH2 - Creación de pruebas:} el usuario podrá crear pruebas en las diferentes asignaturas de las que es titular y asignarlas a determinados alumnos y alumnas.
+	\item \textbf{MH3 - Borrado de pruebas:} el usuario podrá borrar una prueba previamente creada, así como las notas de los alumnos y alumnas que ya hayan sido calificados en esa prueba.
+	\item \textbf{MH4 - Calificación de pruebas:} el usuario podrá calificar a los alumnos y alumnas en las pruebas que cree para ellos. La calificación requiere una nota, y un comentario sobre la nota en caso de que el usuario requiera hacer alguna explicación.
+	\item \textbf{MH5 - Visualización de las notas del alumnado:} el usuario debe poder visualizar las notas que ha calificado, así como las notas finales de cada trimestre y la nota final de la asignatura, para cada alumno y alumna.
+	\item \textbf{MH6 - Visualización del alumnado para cada asignatura:} el usuario podrá ver un listado de los alumnos y alumnas que corresponden a cada asignatura.
 	\item \textbf{MH7 - Sistema de inicio de sesión para el usuario:} el usuario podrá iniciar sesión en el sistema mediante una clave única y una contraseña.
 \end{itemize}
 	
 Requisitos \textit{Should have}:
 \begin{itemize}
-	\item \textbf{SH1 - Visualización de informes del alumno:} el usuario tendrá un vista general de un alumno, donde podrá ver sus notas con sus comentarios y su comentario general de la asignatura.
-	\item \textbf{SH2 - Visualización de informes del curso:} el usuario podrá obtener una vista general de un trimestre del curso a su elección, donde podrá ver las notas de todos los alumnos para todas las pruebas de ese trimestre.
+	\item \textbf{SH1 - Visualización de informes del alumno:} el usuario tendrá un vista general de un alumno o alumna, donde podrá ver sus notas con sus comentarios y su comentario general de la asignatura.
+	\item \textbf{SH2 - Visualización de informes del curso:} el usuario podrá obtener una vista general de un trimestre del curso a su elección, donde podrá ver las notas de todos los alumnos y alumnas para todas las pruebas de ese trimestre.
 \end{itemize}
 
 Requisitos \textit{Could have}:
 \begin{itemize}
 	\item \textbf{CH1 - Modificación de los datos del usuario:} el usuario podrá modificar el nombre mediante el cual la aplicación se dirige a él, así como su fotografía de perfil, y la contraseña que tiene asignada para iniciar sesión en el sistema.
-	\item \textbf{CH2 - Creación de un rol adicional de administrador:} un administrador, que no será el usuario maestro, podrá acceder a la aplicación mediante un usuario y una contraseña especiales. Esto le dará acceso a una vista oculta que permitirá realizar cambios de mantenimiento como asignar cursos o asignaturas nuevas al maestro y crear y asignar competencias a las asignaturas.
+	\item \textbf{CH2 - Creación de un rol adicional de administrador:} un administrador, que no será el usuario docente, podrá acceder a la aplicación mediante un usuario y una contraseña especiales. Esto le dará acceso a una vista oculta que permitirá realizar cambios de mantenimiento como asignar cursos o asignaturas nuevas al docente y crear y asignar competencias a las asignaturas.
 \end{itemize}
 
 Requisitos \textit{Won't have}:
 \begin{itemize}
-	\item \textbf{WH1 - Exportación a Excel de las notas del alumnado:} el usuario podrá exportar a un Excel (para posterior impresión o archivaje) las notas de los alumnos para una asignatura.
-	\item \textbf{WH2 - Creación y asignación de alumnos/as a un curso o a una asignatura:} el usuario podrá crear alumnos y asignarlos a asignaturas y/o cursos.
-	\item \textbf{WH3 - Estadísticas de las notas del alumnado:} se podrán adquirir estadísticas sobre las notas de los alumnos, tanto textuales como visuales.
+	\item \textbf{WH1 - Exportación a Excel de las notas del alumnado:} el usuario podrá exportar a un Excel (para posterior impresión o archivado) las notas de los alumnos y alumnas para una asignatura.
+	\item \textbf{WH2 - Creación y asignación de alumnos y alumnas a un curso o a una asignatura:} el usuario podrá crear alumnos y asignarlos a asignaturas y/o cursos.
+	\item \textbf{WH3 - Estadísticas de las notas del alumnado:} se podrán adquirir estadísticas sobre las notas de los alumnos y alumnas, tanto textuales como visuales.
 	\item \textbf{WH4 - Sugerencias personalizadas para el usuario:} el usuario podrá obtener sugerencias personalizadas de la aplicación, por ejemplo, enlaces para que continúe calificando a los alumnos en una prueba que se ha dejado a medias o enlaces que llevan a las asignaturas que más frecuenta.
 	\item \textbf{WH5 - Manual de ayuda:} el usuario contará con un manual de usuario que podrá consultar en cualquier momento para resolver cualquier duda sobre los procesos de la aplicación.
 \end{itemize}
 
 
-De los requisitos mencionados anteriormente, solo CH2 y WH4 se decidieron no llevar a cabo.
+\todo{Carmen, échale un vistazo a esta justificación, porfa}
+De los requisitos mencionados anteriormente, solo CH2 y WH4 se decidieron no llevar a cabo. El primero debido a que se consideró que sobrepasaba los objetivos del proyecto. El segundo se descartó tras realizar un pequeño estudio de viabilidad y concluir en que no había suficiente tiempo para desarrollarlo debido a que el escaso conocimiento sobre \textit{Machine learning} de la desarrolladora llevaría a una necesidad de estudio que no se planteó ni en el análisis de costes ni en la planificación de los \textit{sprints}.
+
+
+
 
 \subsection{Requisitos no funcionales}
 A continuación se definen los requisitos no funcionales del sistema.
@@ -73,19 +75,19 @@ A continuación se definen los requisitos no funcionales del sistema.
 
 
 \subsection{Casos de uso}
-Tras analizar los requisitos, se ha formado el diagrama \ref{Fig:diagramacdu} con los casos de uso que tendrá la aplicación resultante:
+Tras analizar los requisitos, se ha diseñado el diagrama \ref{Fig:diagramacdu} con los casos de uso que tendrá la aplicación resultante:
 \begin{enumerate}
 	\item \textbf{Iniciar sesión} en el sistema.
 	\item \textbf{Recuperar la contraseña} en caso de olvido o extravío.
 	\item \textbf{Modificar la apariencia visual} cambiando colores y tamaño de letra.
-	\item \textbf{Ver las notas del alumno}, tanto las notas de las pruebas calificadas como las notas finales de cada trimestre.
+	\item \textbf{Ver las notas del alumno o alumna}, tanto las notas de las pruebas calificadas como las notas finales de cada trimestre.
 	\item \textbf{Crear nueva tarea o prueba}.
 	\item \textbf{Calificar tarea o prueba}.
 	\item \textbf{Modificar tarea o prueba}.
 	\item \textbf{Borrar tarea o prueba}.
 	\item \textbf{Cerrar sesión} en el sistema.
 	\item \textbf{Modificar los datos personales del usuario}.
-	\item \textbf{Añadir alumnos/as} a las asignaturas o cursos.
+	\item \textbf{Añadir alumnos y alumnas} a las asignaturas o cursos.
 \end{enumerate}
 
 \begin{figure}[h]
@@ -94,97 +96,112 @@ Tras analizar los requisitos, se ha formado el diagrama \ref{Fig:diagramacdu} co
 \label{Fig:diagramacdu}
 \end{figure}
 
+\section{\textit{Sprints}}
 
-\subsection{Prueba de usabilidad}
-\label{sub:pruebausabilidad}
-Con el fin de llevar a cabo correctamente el requisito no funcional de usabilidad, se ha decidido realizar una prueba de usabilidad de forma voluntaria con 34 profesores y maestros entre los que se incluyen docentes de Educación Primaria, Educación Secundaria y universidad.
+A continuación se detallan los \textit{sprints} que se realizaron en el proyecto. Cabe notar que este documento se escribió al mismo tiempo que se iban desarrollando.
 
-A estos docentes se les proporcionó un vídeo explicativo mostrando y explicando las funcionalidades de la aplicación con el resultado obtenido de este trabajo, y un cuestionario de 10 preguntas para recoger sus opiniones realizado con Google Forms.
+\subsection{Primer \textit{sprint} - 2oct/1nov}
 
-De las 10 preguntas, la primera pregunta sirve para que el encuestado dé su consentimiento para realizar el cuestionario, la segunda y la tercera son preguntas para obtener su perfil (género y trabajo), la cuarta [\ref{Fig:pregunta4}] y la quinta [\ref{Fig:pregunta5}] son preguntas que utilizan respuestas tipo Likert de 5 niveles, la sexta, séptima y octava son preguntas de respuesta abierta donde el encuestado puede mostrar su opinión y la novena [\ref{Fig:pregunta9}] y la décima preguntan si estarían interesados en recibir actualizaciones de la aplicación y seguir su desarrollo.
+En esta iteración se realizaron los primeros bocetos de la aplicación, tal y como ilustran las figuras \ref{Fig:mockup_mainwindow}, \ref{Fig:mockup_nuevatarea} y \ref{Fig:mockup_informealumno}. Estos bocetos se han modificado varias veces durante este primer \textit{sprint}. Además, se realizó el primer diseño de la base de datos, como ilustra la figura \ref{Fig:db_definition1}.
 
 \begin{figure}[h]
-\centering\includegraphics[width=1\linewidth]{figs/pregunta4.png}
-\caption{Pregunta 4 del cuestionario.}
-\label{Fig:pregunta4}
+\centering\includegraphics[width=1\linewidth]{figs/DB_Definition_1.png}
+\caption{Primera definición de la base de datos.}
+\label{Fig:db_definition1}
 \end{figure}
 
 \begin{figure}[h]
-\centering\includegraphics[width=1\linewidth]{figs/pregunta5.png}
-\caption{Pregunta 5 del cuestionario.}
-\label{Fig:pregunta5}
+\centering\includegraphics[width=1\linewidth]{figs/mockup_mainwindow.png}
+\caption{Prototipo de la ventana principal.}
+\label{Fig:mockup_mainwindow}
 \end{figure}
 
 \begin{figure}[h]
-\centering\includegraphics[width=1\linewidth]{figs/pregunta9.png}
-\caption{Pregunta 9 del cuestionario.}
-\label{Fig:pregunta9}
+\centering\includegraphics[width=1\linewidth]{figs/mockup_nuevatarea.png}
+\caption{Prototipo de la creación de nuevas tareas o pruebas.}
+\label{Fig:mockup_nuevatarea}
 \end{figure}
 
-A continuación se realiza un pequeño análisis sobre el cuestionario.
+\begin{figure}[h]
+\centering\includegraphics[width=1\linewidth]{figs/mockup_informealumno.png}
+\caption{Prototipo del informe del alumnado.}
+\label{Fig:mockup_informealumno}
+\end{figure}
 
-Los resultados han sido generalmente favorables. Considerando, en la cuarta pregunta, que un 4 o un 5 son respuestas aceptables, se puede observar que al 64,7\% de los encuestados les parece útil la aplicación desarrollada para mejorar la forma en la que califican a sus estudiantes, y al 88.3\% les gustaría poder llegar a usarla.
 
-En la quinta pregunta también encontramos resultados contundentes. Solo el 11,8\% de los encuestados considera que necesitaría formación previa para usar la aplicación correctamente respecto al 73,5\% que no creen que fueran a tener ningún problema.
+\subsection{Segundo sprint - 2nov/1dic}
 
-Algunos comentarios de los encuestados cuando se les preguntó por los puntos fuertes de la aplicación son:
-\begin{quote}
-\textit{\"Sencillez y rapidez. Quizá lo más interesante sea la claridad a la hora de ofrecer la información global, pero sobre todo las medias por evaluación. Lo mejor es su interacción y la posibilidad de exportarlo a una hoja Excel convencional.\"}
-\end{quote}
+En el segundo \textit{sprint} se comenzó a escribir la memoria del proyecto, empezando por describir las aplicaciones existentes investigadas.
 
-\begin{quote}
-\textit{\"Puedes añadir y eliminar alumnos/as fácilmente y tienes toda la información de tus alumnos/as a un golpe de ratón.\"}
-\end{quote}
+Se siguió trabajando en el diseño e implementación de la base de datos, y comenzó a poblarse de datos de prueba para comenzar el desarrollo.
 
-\begin{quote}
-\textit{\"Visualización rápida, flexibilidad en la interacción.\"}
-\end{quote}
 
-También se muestran algunos de los comentarios de los encuestados cuando se les preguntó si querían mostrar su opinión:
-\begin{quote}
-\textit{\"Me sorprendió la posibilidad de uso para daltónicos, entre los que me incluyo.\"}
-\end{quote}
+\subsection{Tercer sprint - 2dic/1ene}
 
-\begin{quote}
-\textit{\"No sé si puede usarse con un sistema operativo diferente de Windows, pero sería una ventaja que pudiera usarse con Linux y LibreOffice. Espero que sea así.\"}
-\end{quote}
+En el tercer \textit{sprint} se comenzó la implementación de la aplicación por la ventana principal, debido a que al estar unida a todas las funcionalidades del sistema, se consideró la más importante.
 
-\begin{quote}
-\textit{\"Me gustaría utilizarla y ver personalmente su eficacia.\"}
-\end{quote}
+Al final de este sprint se decidió cambiar de \gls{ide} debido a la gran dificultad para trabajar con interfaces en Java con el elegido inicialmente.
 
-Para finalizar, comentar que varios de los puntos débiles de la aplicación se han tenido en cuenta y se han mencionado en la sección \ref{sec:trabajofuturo}: Propuestas de trabajo futuro. Sin embargo, como muestra, los comentarios generales más críticos han sido referentes a la interfaz gráfica de la aplicación:
+\subsection{Cuarto sprint - 2feb/1may}
 
-\begin{quote}
-\textit{\"Me parece una aplicación útil y completa, pero el aspecto visual podría estar más trabajado.\"}
-\end{quote}
+En el cuarto \textit{sprint} se continuó con el desarrollo de la ventana principal. Cabe notar que en esta iteración se decidió dejar las mejoras del diseño de la ventana para sprints posteriores y comenzar con el desarrollo de las funcionalidades principales:
+\begin{itemize}
+	\item \textbf{Crear una nueva tarea o prueba}, accesible mediante un botón en la ventana principal.
+	\item \textbf{Calificar tareas o pruebas}, accesible de la misma manera, con un botón en la ventana principal.
+	\item \textbf{Ver informe del alumno}, ventana que se puede acceder al hacer clic en el nombre de un alumno en la tabla.
+	\item \textbf{Ver informe del trimestre}, ventana que se puede acceder al hacer clic en el título de un trimestre en la tabla.
+\end{itemize}
 
-\begin{quote}
-\textit{\"Como profesora de primaria me gustaría incorporar dibujos o 'caritas'\".}
-\end{quote}
 
-\begin{quote}
-\textit{\"Hay que introducir demasiados datos, creo que es más útil en instituto que en universidad, donde se hacen menos pruebas y no hace tanta falta una herramienta de este tipo.\"}
-\end{quote}
+Al final de este \textit{sprint}, se comprobó que las funcionalidades desarrolladas se integraban y funcionaban correctamente entre ellas y la ventana principal.
 
-Para finalizar esta sección, se comenta que se hizo una pequeña prueba de usabilidad con una persona daltónica mostrándole primero los colores por defecto y después los colores elegidos para el 'Modo daltónicos'. Afirmó que solo el segundo conjunto de colores era fácilmente distinguible.
+\subsection{Sexto sprint - 2may/1jul}
+
+En el sexto \textit{sprint} se realizaron pequeños desarrollos en la aplicación, tanto para añadir nuevas funcionalidades de los apartados de requisitos \textit{Could have} y \textit{Won't have}, como para pulir las ya existentes.
+
+En este sprint se desarrollaron las siguientes funcionalidades y se hicieron varios arreglos:
+\begin{itemize}
+	\item \textbf{Modificación de los datos del docente}, accesibles mediante un botón en la ventana principal.
+	\item \textbf{Manual de ayuda}, una pequeña ventana con texto explicando al usuario cada funcionalidad de la aplicación. Es accesible mediante cualquier ventana.
+	\item \textbf{Añadir alumnos}, funcionalidad posible mediante un formulario, para un solo alumno, o subiendo un Excel, para varios. Accesible mediante la ventana principal.	
+\end{itemize}
+
+Durante este periodo de tiempo también se diseñaron las imágenes e iconos usados en la aplicación.
+
+Por último, en este sprint se decidió implementar las estadísticas para las notas en la ventana principal y la ventana de calificar tareas.
+
+Este proyecto, que ha tenido una duración aproximada de 350 horas, se ha desarrollado desde el 2 de octubre de 2020 hasta el 1 de julio de 2021.
+
+\todo{tabla que refleja la organización temporal}
+
+Primer sprint (2 octubre 2020 - 1 noviembre 2020), al que se dedicaron 30 horas
+Segundo sprint (2 noviembre 2020 - 1 diciembre 2020), al que se dedicaron 20 horas
+Tercer sprint (2 diciembre 2020 - 1 febrero 2021), al que se dedicaron 50 horas
+Cuarto sprint (2 febrero 2021 - 1 mayo 2021), al que se dedicaron 175 horas
+Quinto sprint (2 mayo 2021 - 1 julio 2021), al que se dedicaron 75 horas
 
 \section{Decisiones de diseño e implementación}
 En esta sección se describirán algunas de las decisiones que se han tomado respecto al diseño de la aplicación que pueden ser de interés.
 
 \subsection{Procedencia de los iconos e imágenes de la aplicación}
-Los iconos de una aplicación son un arma de doble filo: pueden guiar al usuario por las tareas que quiere realizar o confundirlo si la funcionalidad asociada al icono no es clara o, directamente, es incoherente.
+Los iconos de una aplicación son un arma de doble filo: pueden guiar al usuario por las tareas que quiere realizar, o confundirlo si la funcionalidad asociada al icono no es clara o, directamente, es incoherente.
 
-Para implementar iconos en esta aplicación se han decidido usar las convenciones de las aplicaciones modernas: una imagen de un disquete para los botones de guardar, una cruz roja para cancelar, un icono de encendido para cerrar sesión...
+Para implementar iconos en esta aplicación se han decidido usar las convenciones de las aplicaciones modernas: una imagen de un disquete para los botones de guardar, una cruz roja para cancelar, un icono de encendido para cerrar sesión, un engranaje para acceder a las opciones de configuración, etc. Algunos ejemplos pueden verse en la figura \ref{Fig:iconosusados}.
 
-Sin embargo, para las funcionalidades específicas, se han diseñado la mayoría de los iconos e imágenes mediante la aplicación Procreate [\ref{sub:procreate}]. Los iconos que no se han diseñado y se han descargado de Internet han sido el disquete \cite{disquete}, el icono de Microsoft Excel \cite{excelicon} y el icono de la papelera \cite{iconsforfree}.
+\begin{figure}[h]
+\centering\includegraphics[width=1\linewidth]{figs/iconosusados.png}
+\caption{Iconos convencionales usados en la aplicación.}
+\label{Fig:iconosusados}
+\end{figure}
+
+Sin embargo, para las funcionalidades específicas, se han diseñado la mayoría de los iconos e imágenes mediante la aplicación Procreate, mencionada en la sección [\ref{sub:procreate}]. Los iconos que no se han diseñado y se han descargado de Internet han sido el disquete \cite{disquete}, el icono de Microsoft Excel \cite{excelicon} y el icono de la papelera \cite{iconsforfree}.
 
 \subsection{Opciones especiales para personas con daltonismo}
 A la hora de implementar las opciones de colores para la interfaz, accesibles mediante la ventana de inicio de sesión, ha sido muy importante tener en cuenta todas las combinaciones de colores de manera que, aun eligiendo tonos parecidos, se pudiera seguir leyendo correctamente.
 
 La investigación que se llevó a cabo probando diferentes tonalidades  llevó a pensar que, efectivamente, hay personas que no distinguen bien colores que, a primera vista, son muy diferentes, como pueden ser el verde y el rojo asignados a las calificaciones aprobado y suspenso, respectivamente. Esta condición se llama daltonismo, que es una alteración de origen genético que impide identificar correctamente los colores. Uno de los tipos de daltonismo más comunes es la deuteranopia, razón por la cual se incluyó en las opciones de personalización un "modo para daltónicos".
 
-Esta opción especial modifica los colores de aprobados y suspensos para que sean colores fácilmente reconocibles para personas con esta condición (ver figura \ref{Fig:appdaltonicos}.
+Esta opción especial modifica los colores de aprobados y suspensos para que sean colores fácilmente reconocibles para personas con esta condición (ver figura \ref{Fig:appdaltonicos}).
 
 \begin{figure}[h]
 \centering\includegraphics[width=1\linewidth]{figs/appdaltonicos.png}
@@ -196,9 +213,9 @@ Esta opción especial modifica los colores de aprobados y suspensos para que sea
 \label{sub:optimizarcodigo}
 El código, si bien no posee algoritmos optimizables, se ha investigado y diseñado de forma que se ejecuten las instrucciones mínimas posibles, cuando ha sido posible.
 
-Además se ha primado el uso de diccionarios como estructura principal de almacenamiento de datos, en concreto de los HashMaps, la estructura de diccionario de Java más rápida para el alcance del problema \cite{hashmap}.
+Además se ha primado el uso de diccionarios como estructura principal de almacenamiento de datos, en concreto de los \textit{HashMaps}, la estructura de diccionario de Java más rápida para el alcance del problema \cite{hashmap}.
 
-El tiempo de acceso de las operaciones añadir, borrar y buscar es \textit{O(1)}. Estas son las operaciones que se han usado en el código. Además, la única casuística en la que un HashMap pudiera dar problemas de rendimiento sería si tuviera demasiados datos dentro: las operaciones se volverían más lentas. Esto también se ha evitado en la solución propuesta, donde el número máximo de elementos de cualquiera de estas estructuras es el número de alumnos en una asignatura.
+El tiempo de acceso de las operaciones añadir, borrar y buscar es \textit{O(1)}. Estas son las operaciones que se han usado en el código. De hecho, la única casuística en la que un \textit{HashMap} puede dar problemas de rendimiento es si tiene demasiados datos dentro: las operaciones se volverían más lentas. Esto también se ha evitado en la solución propuesta, donde el número máximo de elementos de cualquiera de estas estructuras es el número de alumnos en una asignatura.
 
 \section{Resultado del desarrollo}
 En esta sección se muestra el resultado del desarrollo de la aplicación de este documento mediante capturas de pantalla de la solución, acompañadas de una descripción.
@@ -214,7 +231,9 @@ Se ha desarrollado una ventana para que el usuario inicie sesión (ver figura \r
 \label{Fig:login}
 \end{figure}
 
-Esta ventana permite al usuario acceder a las opciones del programa haciendo clic en la rueda de opciones, e iniciar sesión en la aplicación con su DNI y una contraseña asociada. En la figura \ref{Fig:loginopciones} se pueden ver las diferentes opciones de personalización que se ofrecen:
+\todo{poraqui}
+
+Esta ventana permite al usuario acceder a las opciones del programa haciendo clic en la rueda de opciones, e iniciar sesión en la aplicación con su DNI y una contraseña asociada. En la figura \ref{Fig:loginopciones} se pueden ver las diferentes opciones de adaptación a las necesidades del usuario que se ofrecen:
 \begin{itemize}
 	\item \textbf{Cambio del tamaño de la letra}, seleccionando entre 5 diferentes tamaños de letra.
 	\item \textbf{Colores para las notas aprobadas, suspensas y el fondo de la aplicación}. Hay también 5 opciones para los colores de las notas, que son colores sólidos y fuertes, y otras 5 para el fondo, colores pastel que permiten el contraste de los demás elementos de la ventana.
@@ -370,3 +389,111 @@ Se puede ver esta ventana en la figura \ref{Fig:ayuda}.
 \caption{Ventana con el manual de ayuda.}
 \label{Fig:ayuda}
 \end{figure}
+
+\section{Evaluación del sistema}
+\label{sub:pruebausabilidad}
+Para comprobar si la aplicación desarrollada cumple las expectativas, los requisitos descritos y si tiene carencias o no, se ha realizado una pequeña experiencia con potenciales usuarios para para evaluar su usabilidad.
+
+\subsection{Diseño de la experiencia}
+
+En la experiencia participaron, de forma voluntaria, 34 docentes Para ello, se les preparó un video explicativo de la aplicación y se les suministró acceso a un formulario, creado en MS Forms, para que, de forma completamente anónima, proporcionasen su opinión sobre la usabilidad de la herramienta y la intención de uso de la misma. El cuestionario consta de 12 items, con respuestas en una escala de Likert de cinco niveles, según el grado de acuerdo o desacuerdo con cada uno de ellos, y de tres preguntas de respuesta abierta. Los 8 primeros items corresponden a la traducción al castellano de la escala SUS [17] para medir la usabilidad de herramientas web; los 4 restantes, basados en el framework TAM [18], miden la intención de uso de la aplicación. Las respuestas abiertas dan la opción al usuario a indicar los puntos fuertes y débiles del sistema, así como opciones de mejora. El contenido completo del cuestionario se puede consultar en el ANEXO B: CUESTIONARIO DE EVALUACIÓN DE LA USABILIDAD DEL SISTEMA.
+
+\subsection{Análisis de los resultados}
+El análisis de los resultados, que ilustran las figuras \ref{Fig:pregunta4}, \ref{Fig:pregunta5} y \ref{Fig:pregunta9}, refleja la buena valoración que ha tenido la aplicación.
+
+\begin{figure}[h]
+\centering\includegraphics[width=1\linewidth]{figs/pregunta4.png}
+\caption{Pregunta 4 del cuestionario.}
+\label{Fig:pregunta4}
+\end{figure}
+
+\begin{figure}[h]
+\centering\includegraphics[width=1\linewidth]{figs/pregunta5.png}
+\caption{Pregunta 5 del cuestionario.}
+\label{Fig:pregunta5}
+\end{figure}
+
+\begin{figure}[h]
+\centering\includegraphics[width=1\linewidth]{figs/pregunta9.png}
+\caption{Pregunta 9 del cuestionario.}
+\label{Fig:pregunta9}
+\end{figure}
+
+A continuación se realiza un pequeño análisis sobre el cuestionario.
+
+Los resultados han sido generalmente favorables. Considerando, en la cuarta pregunta, que un 4 o un 5 son respuestas aceptables, se puede observar que al 64,7\% de los encuestados les parece útil la aplicación desarrollada para mejorar la forma en la que califican a sus estudiantes, y al 88.3\% les gustaría poder llegar a usarla.
+
+En la quinta pregunta también encontramos resultados contundentes. Solo el 11,8\% de los encuestados considera que necesitaría formación previa para usar la aplicación correctamente respecto al 73,5\% que no creen que fueran a tener ningún problema.
+
+Algunos comentarios de los encuestados cuando se les preguntó por los puntos fuertes de la aplicación son:
+\begin{quote}
+\textit{\"Sencillez y rapidez. Quizá lo más interesante sea la claridad a la hora de ofrecer la información global, pero sobre todo las medias por evaluación. Lo mejor es su interacción y la posibilidad de exportarlo a una hoja Excel convencional.\"}
+\end{quote}
+
+\begin{quote}
+\textit{''Puedes añadir y eliminar alumnos/as fácilmente y tienes toda la información de tus alumnos/as a un golpe de ratón.''}
+\end{quote}
+
+\begin{quote}
+\textit{''Visualización rápida, flexibilidad en la interacción.''}
+\end{quote}
+
+También se muestran algunos de los comentarios de los encuestados cuando se les preguntó si querían mostrar su opinión:
+\begin{quote}
+\textit{''Me sorprendió la posibilidad de uso para daltónicos, entre los que me incluyo.''}
+\end{quote}
+
+\begin{quote}
+\textit{''No sé si puede usarse con un sistema operativo diferente de Windows, pero sería una ventaja que pudiera usarse con Linux y LibreOffice. Espero que sea así.''}
+\end{quote}
+
+\begin{quote}
+\textit{''Me gustaría utilizarla y ver personalmente su eficacia.''}
+\end{quote}
+
+Para finalizar, comentar que varios de los puntos débiles de la aplicación se han tenido en cuenta y se han mencionado en la sección \ref{sec:trabajofuturo}: Propuestas de trabajo futuro. Sin embargo, como muestra, los comentarios generales más críticos han sido referentes a la interfaz gráfica de la aplicación:
+
+\begin{quote}
+\textit{''Me parece una aplicación útil y completa, pero el aspecto visual podría estar más trabajado.''}
+\end{quote}
+
+\begin{quote}
+\textit{''Como profesora de primaria me gustaría incorporar dibujos o caritas''.}
+\end{quote}
+
+\begin{quote}
+\textit{''Hay que introducir demasiados datos, creo que es más útil en instituto que en universidad, donde se hacen menos pruebas y no hace tanta falta una herramienta de este tipo.''56}
+\end{quote}
+
+Para finalizar esta sección, se comenta que se hizo una pequeña prueba de usabilidad con una persona daltónica mostrándole primero los colores por defecto y después los colores elegidos para el 'Modo daltónicos'. Afirmó que solo el segundo conjunto de colores era fácilmente distinguible.
+
+\section{Análisis de costes}
+\label{sec:analisiscostes}
+Como parte de la fase de Inicio de este proyecto, se ha realizado un análisis de costes teniendo en cuenta las tecnologías que se fueran a usar, el tiempo estimado para la finalización del proyecto y otros gastos.
+
+En la mayor parte del desarrollo del proyecto se ha usado software gratuito. Este software incluye: Java, MySQL Workbench, tablesgenerator.com, paint.net, Texmaker y Overleaf, NetBeans IDE, Balsamiq Mockups y Git y Github, mencionados en los apartados anteriores.
+
+Para realizar este análisis de costes, se han tenido en cuenta todas las herramientas y materiales de trabajo, así como el lugar en el que se ha desarrollado y el coste del personal.
+
+En la figura \ref{tab:tablacostes} se muestra una tabla con el software que no ha sido gratuito, así como los diversos costes estimados para el proyecto.
+
+\begin{table}[h]
+\caption{Tabla del análisis de costes}
+\label{tab:tablacostes}
+\begin{tabular}{|l|c|c|c|c|}
+\hline
+\textbf{Recurso}                                                                                               & \multicolumn{1}{l|}{\textbf{Descripción}}                                                                                                                                         & \multicolumn{1}{l|}{\textbf{\begin{tabular}[c]{@{}l@{}}Precio por \\ unidad\end{tabular}}} & \multicolumn{1}{l|}{\textbf{Unidades}} & \multicolumn{1}{l|}{\textbf{Total}} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}MSI GTX 1060 GAMING X \\ 6GB GDDR5\end{tabular}}                            & \begin{tabular}[c]{@{}c@{}}Tarjeta gráfica instalada\\ en el terminal de trabajo\end{tabular}                                                                                     & 274,98€                                                                                    & 1                                      & 274,98€                             \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Toshiba P300 3.5" 1TB \\ 7200RPM SATA 3\end{tabular}}                       & \begin{tabular}[c]{@{}c@{}}Disco duro instalado\\ en el terminal de trabajo\end{tabular}                                                                                          & 43,99€                                                                                     & 1                                      & 43,99€                              \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Kingston HyperX Fury Black \\ DDR4 2400 PC4-19200 \\ 8GB CL15\end{tabular}} & \begin{tabular}[c]{@{}c@{}}Memoria RAM instalada\\ en el terminal de trabajo\end{tabular}                                                                                         & 70,00€                                                                                     & 2                                      & 140,00€                             \\ \hline
+\textbf{Intel Core i5-8400 2.8GHz BOX}                                                                         & \begin{tabular}[c]{@{}c@{}}Procesador instalado\\ en el terminal de trabajo\end{tabular}                                                                                          & 259,90€                                                                                    & 1                                      & 259,90€                             \\ \hline
+\textbf{Otros componentes}                                                                                     & \begin{tabular}[c]{@{}c@{}}Otros componentes (cableado, \\ placa base, conector Internet, \\ fuente de alimentación, etc) \\ instalados en el terminal \\ de trabajo\end{tabular} & 230,64€                                                                                    & 1                                      & 230,64€                             \\ \hline
+\textbf{Procreate}                                                                                             & \begin{tabular}[c]{@{}c@{}}Aplicación usada en el\\ desarrollo de las figuras\\ de la aplicación\end{tabular}                                                                     & 10,99€                                                                                     & 1                                      & 10,99€                              \\ \hline
+\textbf{Coste de personal}                                                                                     & \begin{tabular}[c]{@{}c@{}}Coste horario de la\\ desarrolladora del proyecto\end{tabular}                                                                                         & 9.98€                                                                                      & 350                                    & 3.493€                              \\ \hline
+\textbf{Otros costes}                                                                                          & \begin{tabular}[c]{@{}c@{}}Se incluyen: tarifa de luz,\\ material de oficina, etc.\end{tabular}                                                                                   & 150.00€                                                                                    & 1                                      & 150.00€                             \\ \hline
+\textbf{COSTE TOTAL}                                                                                           & Suma de la columna Total                                                                                                                                                          & \multicolumn{1}{l|}{}                                                                      & \multicolumn{1}{l|}{}                  & 10.603,50€                          \\ \hline
+\end{tabular}
+\end{table}
+
+
+El coste total del proyecto se estima en 10.603,50€(Euros)
