@@ -132,5 +132,3 @@
 \contentsline {chapter}{\numberline {B}Anexo B}{45}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {C}Anexo C}{47}{appendix.Alph3}%
-\defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografía}{49}{section*.49}%
