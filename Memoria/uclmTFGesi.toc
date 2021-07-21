@@ -15,9 +15,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {2}Objetivo}{3}{chapter.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.1}Objetivos}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.1}Objetivo general}{3}{section.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2.2}Funcionalidades de la aplicación}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.2}Sub-objetivos}{3}{section.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Funcionalidades de la aplicación}{3}{section.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {3}Aplicaciones existentes}{5}{chapter.3}%
 \defcounter {refsection}{0}\relax 
@@ -25,7 +27,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3.2}Google Classroom}{6}{section.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3.3}Additio}{7}{section.3.3}%
+\contentsline {section}{\numberline {3.3}Additio}{6}{section.3.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.4}Análisis y conclusiones}{7}{section.3.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Metodología}{9}{chapter.4}%
 \defcounter {refsection}{0}\relax 
@@ -77,9 +81,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3.4}Cuarto sprint - 2feb/1may}{16}{subsection.5.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3.5}Sexto sprint - 2may/1jul}{17}{subsection.5.3.5}%
+\contentsline {subsection}{\numberline {5.3.5}Quinto sprint - 2may/1jul}{17}{subsection.5.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.4}Decisiones de diseño e implementación}{18}{section.5.4}%
+\contentsline {section}{\numberline {5.4}Decisiones de diseño e implementación}{17}{section.5.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.1}Procedencia de los iconos e imágenes de la aplicación}{18}{subsection.5.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -87,44 +91,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.4.3}Optimización del código}{19}{subsection.5.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.5}Resultado del desarrollo}{20}{section.5.5}%
+\contentsline {section}{\numberline {5.5}Resultado del desarrollo}{19}{section.5.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.1}Inicio de sesión}{20}{subsection.5.5.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.5.2}Ventana principal}{21}{subsection.5.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.3}Editar usuario}{23}{subsection.5.5.3}%
+\contentsline {subsection}{\numberline {5.5.3}Editar usuario}{22}{subsection.5.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.4}Añadir alumno}{23}{subsection.5.5.4}%
+\contentsline {subsection}{\numberline {5.5.4}Añadir alumno}{22}{subsection.5.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.5}Crear nueva tarea}{24}{subsection.5.5.5}%
+\contentsline {subsection}{\numberline {5.5.5}Crear nueva tarea}{23}{subsection.5.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.6}Calificar tareas}{25}{subsection.5.5.6}%
+\contentsline {subsection}{\numberline {5.5.6}Calificar tareas}{24}{subsection.5.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.7}Informe del alumno}{26}{subsection.5.5.7}%
+\contentsline {subsection}{\numberline {5.5.7}Informe del alumno}{24}{subsection.5.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.8}Informe del trimestre}{27}{subsection.5.5.8}%
+\contentsline {subsection}{\numberline {5.5.8}Informe del trimestre}{26}{subsection.5.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5.9}Manual de ayuda}{27}{subsection.5.5.9}%
+\contentsline {subsection}{\numberline {5.5.9}Manual de ayuda}{26}{subsection.5.5.9}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {5.6}Evaluación del sistema}{27}{section.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.1}Diseño de la experiencia}{28}{subsection.5.6.1}%
+\contentsline {subsection}{\numberline {5.6.1}Diseño de la experiencia}{27}{subsection.5.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6.2}Análisis de los resultados}{28}{subsection.5.6.2}%
+\contentsline {subsection}{\numberline {5.6.2}Análisis de los resultados}{27}{subsection.5.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.7}Análisis de costes}{30}{section.5.7}%
+\contentsline {section}{\numberline {5.7}Análisis de costes}{29}{section.5.7}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {6}Conclusiones}{33}{chapter.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6.1}Conclusiones}{33}{section.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6.2}Propuestas de trabajo futuro}{34}{section.6.2}%
+\contentsline {section}{\numberline {6.2}Justificación de las competencias}{34}{section.6.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6.3}Propuestas de trabajo futuro}{34}{section.6.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {A}Anexo A}{35}{appendix.Alph1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {B}Anexo B}{45}{appendix.Alph2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {C}Anexo A}{47}{appendix.Alph3}%
+\contentsline {chapter}{\numberline {C}Anexo C}{47}{appendix.Alph3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{Bibliografía}{57}{section*.61}%
+\contentsline {chapter}{Bibliografía}{49}{section*.49}%
