@@ -5,7 +5,7 @@ En este capítulo se explica la metodología de desarrollo que se ha seguido, de
 
 \section{Metodología de desarrollo}
 
-Para organizar el proyecto y permitir un desarrollo eficaz e incremental se ha seguido una metodología de desarrollo en espiral: el \gls{pud}\cite{pud} y \cite{apuntes}.
+Para organizar el proyecto y permitir un desarrollo eficaz e incremental se ha seguido una metodología de desarrollo en espiral: el \gls{pud}\cite{pud}\cite{apuntes}.
 
 \subsection{Características principales}
 El \gls{pud} es una metodología de desarrollo que transforma los requisitos de usuario en un sistema software. Es muy genérica, y por eso se ha decidido adaptar a este proyecto.
@@ -24,7 +24,7 @@ Las características básicas del \gls{pud} son las siguientes:
 	En cada iteración en la que se mejora una funcionalidad existente, los pasos son:
 	\begin{enumerate}
 		\item Se elige una de las funcionalidades a probar.
-		\item Se prueba exhaustivamente dentro de su módulo para identificar los errores actuales y posibles futuros, y se arreglan los fallos.
+		\item Se prueba exhaustivamente dentro de su módulo para identificar los errores actuales y posibles futuros, y se arreglan los fallos encontrados.
 	\end{enumerate}
 	
 	En cada iteración en la que se prueba la cohesión entre los módulos, el proceso seguido es:
@@ -52,7 +52,7 @@ Esta metodología implica la división del proyecto en cuatro etapas:
 
 Para la obtención y clasificación de los requisitos, se ha optado por:
 \begin{itemize}
-	\item \textbf{Observación activa:} se estudiará el entorno de trabajo del usuario final. Para ello, se realizó una sesión en la que se monitorizó a un usuario usando una de las herramientas descritas en el capítulo Aplicaciones existentes, preguntándole sus opiniones sobre algunas de las características que estaba utilizando.
+	\item \textbf{Observación activa:} se estudió el entorno de trabajo del usuario final. Para ello, se realizó una sesión en la que se monitorizó a un usuario usando una de las herramientas descritas en el capítulo Aplicaciones existentes, preguntándole sus opiniones sobre algunas de las características que estaba utilizando.
 	\item \textbf{Realización de entrevistas} con el usuario en las que irá evaluando el producto final de cada \textit{sprint} o iteración y añadiendo o modificando características.
 \end{itemize}
 
@@ -72,56 +72,76 @@ Además, se ha aplicado la regla \textit{MoSCoW} para priorizar el desarrollo de
 En esta sección se detallan las tecnologías usadas para el desarrollo de la aplicación.
 
 \subsection{Java}
-En la fase de Inicio del proyecto se estudió qué lenguaje de programación utilizar para su desarrollo. Al principio se propuso C\#, pero debido a las restricciones de horario de la desarrolladora y su previo conocimiento de Java (fuente: \cite{java}), se optó finalmente por el segundo.
+En la fase de Inicio del proyecto se estudió qué lenguaje de programación utilizar para su desarrollo. Al principio se propuso C\#, pero debido a las restricciones de horario de la desarrolladora y su previo conocimiento de Java\cite{java}, se optó finalmente por el segundo.
 
 Otra de las razones por las que se decantó por Java para realizar el proyecto fue la facilidad con la que se crean y modifican las interfaces gráficas con este lenguaje, concretamente si se usa un \gls{ide}.
 
-A continuación se muestra una lista describiendo brevemente las librerías externas que se han usado en el desarrollo de este proyecto.
+A continuación se muestran las librerías externas que se han usado en el desarrollo de este proyecto.
 \begin{itemize}
-	\item \textbf{Apache Poi}: permite crear y modificar archivos Microsoft Excel \cite{apachepoi}.
-	\item \textbf{JFreeChart}: crea diagramas y gráficos y permite personalizarlos de varias maneras \cite{jfreechart}.
+	\item \textbf{Apache Poi}: permite crear y modificar archivos Microsoft Excel\cite{apachepoi}.
+	\item \textbf{JFreeChart}: crea diagramas y gráficos y permite personalizarlos de varias maneras\cite{jfreechart}.
 \end{itemize}
 
 \subsection{Git y GitHub}
-Se ha usado una herramienta de control de versiones llamada Git \cite{git}. Esta herramienta permite subir el código a un repositorio, elegir los cambios que se quieren subir y deshacer los que se han hecho en caso de error. Ha sido de gran ayuda para gestionar el código y las iteraciones correctamente.
+Se ha usado una herramienta de control de versiones llamada Git\cite{git}. Esta herramienta permite subir el código a un repositorio, elegir los cambios que se quieren subir y deshacer los que se han hecho en caso de error. Ha sido de gran ayuda para gestionar el código y las iteraciones correctamente.
 
-Otra razón por la que se ha optado por Git es porque, desde su página web \url{www.github.com}, permite un control de \textit{Issues} o problemas. Esto se ha usado de manera constante para tener mejor control de los errores que iban saliendo en el programa tras las iteraciones de desarrollo.
+Otra razón por la que se ha optado por Git es porque, desde su página web \footnote{www.github.com} permite un control de \textit{Issues} o problemas. Esto se ha usado de manera constante para tener mejor control de los errores que iban saliendo en el programa tras las iteraciones de desarrollo.
 
-Por último, cabe destacar que también se ha usado la herramienta "Releases", que permite realizar lanzamientos de la aplicación, de manera que los usuarios que visiten el repositorio identificarán rápidamente cuál es la versión que pueden instalarse y ejecutar.
+Por último, cabe destacar que también se ha usado la herramienta ''Releases''\cite{githubreleases}, que permite realizar lanzamientos de la aplicación, de manera que los usuarios que visiten el repositorio identificarán rápidamente cuál es la versión que pueden instalarse y ejecutar.
 
 
 \subsection{Balsamiq Wireframes}
 \label{sub:balsamiq}
-Para realizar en la fase de Elaboración las maquetas de las interfaces (ver figura \ref{Fig:mockup_mainwindow}), se ha usado la aplicación Balsamiq Wireframes \cite{balsamiq}. Esto permite modelar las interfaces de una manera fácil y sencilla. Permite hacer modelos de interfaces para ordenador, tablet y smartphone, y cuenta con una variedad de elementos que se pueden llamar entre sí para realizar una demo.
+Para realizar en la fase de Elaboración las maquetas de las interfaces (ver figura \ref{Fig:mockup_mainwindow}), se ha usado la aplicación Balsamiq Wireframes\cite{balsamiq}. Esto permite modelar las interfaces de una manera fácil y sencilla. Permite hacer modelos de interfaces para ordenador, tablet y smartphone, y cuenta con una variedad de elementos que se pueden llamar entre sí para realizar una \textit{demo}.
 
 \subsection{Texmaker y Overleaf}
 Se ha optado por los editores de textos Texmaker y Overleaf para escribir este documento. Texmaker es una apliación de escritorio, que permite escribir y compilar en \LaTeX{}, que es el sistema de composición de textos mediante el cual se ha creado esta memoria.
 
-Texmaker cuenta con el paquete LatexMk, que automatiza la compilación de todas las partes del documento: texto, bibliografía y referencias, y genera el resultado final en un PDF.
+Texmaker\cite{texmaker} cuenta con el paquete LatexMk, que automatiza la compilación de todas las partes del documento: texto, bibliografía y referencias, y genera el resultado final en un PDF.
 
-Overleaf \cite{overleaf} es, a su vez, un editor de texto para \LaTeX{}, pero para navegador web. Se ha decidido usar este cuando se ha tenido que cambiar de sitio de trabajo.
+Overleaf\cite{overleaf} es, a su vez, un editor de texto para \LaTeX{}, pero para navegador web. Se ha decidido usar este cuando se ha tenido que cambiar de sitio de trabajo.
 
 \subsection{NetBeans IDE}
-Para la escritura de todo el código se ha usado el \gls{ide} gratuito NetBeans.
+Para la escritura de todo el código se ha usado el \gls{ide} gratuito NetBeans\cite{netbeans}.
 Este \gls{ide} cuenta con una potente herramienta para realizar las interfaces de los programas en Java, además, es altamente personalizable y tiene conexión con Git al repositorio de GitHub, de tal manera que, en un vistazo, se pueden ver las clases que han cambiado respecto a la versión que hay en GitHub.
 
 
 \subsection{Procreate}
 \label{sub:procreate}
-Para el diseño de los iconos e imágenes que se han creado, se ha usado la aplicación de dibujo profesional Procreate.
+Para el diseño de los iconos e imágenes que se han creado, se ha usado la aplicación de dibujo profesional Procreate\cite{procreate}.
 
 Es una aplicación sencilla e intuitiva que cuenta con varias herramientas para composición de dibujo y pintura.
 
+\subsection{StarUML}
+\label{sub:staruml}
+El diagrama de clases que contiene este documento está hecho con StarUML\cite{staruml}, una sofisticada herramienta para modelado de software que contiene todas las herramientas necesarias para realizar diagramas UML de manera fácil e intuitiva.
 
 \subsection{MySQL Workbench}
 \label{sub:mysql}
-Para la creación y gestión de la base de datos, se ha optado por MySQL Workbench (ver figura. Esta herramienta ha sido verdaderamente útil a la hora de gestionar todos los cambios que se han tenido que ir haciendo a medida que el proyecto iba creciendo, debido a la facilidad de uso y las funcionalidades que posee.
+Para la creación y gestión de la base de datos, se ha optado por MySQL Workbench\cite{mysql}. Esta herramienta ha sido verdaderamente útil a la hora de gestionar todos los cambios que se han tenido que ir haciendo a medida que el proyecto iba creciendo, debido a la facilidad de uso y las funcionalidades que posee.
 
 
 \subsection{Otras herramientas}
-Cabe mencionar brevemente el uso de otras herramientas que han sido útiles en el desarrollo de este proyecto:
+Cabe mencionar brevemente el uso de otras herramientas software que han sido útiles en el desarrollo de este proyecto:
 \begin{itemize}
-	\item \textbf{tablesgenerator.com:} Como ayuda para la generación de tablas en este documento, se ha usado la herramienta web \url{https://www.tablesgenerator.com/}. Esta página permite crear una tabla de manera visual y generar el código \LaTeX{} correspondiente.
-	\item \textbf{paint.net:} es un programa de escritorio para la edición de imágenes de manera básica. Se ha usado para cambiar el tamaño de las imágenes creadas con Procreate o de las sacadas de internet.
-	\item \textbf{app.diagrams.net:} potente herramienta web usada para crear todos los diagramas de este documento.
+	\item \textbf{tablesgenerator:} Como ayuda para la generación de tablas en este documento, se ha usado esta herramienta web\footnote{https://www.tablesgenerator.com/}. Permite crear una tabla de manera visual y generar el código \LaTeX{} correspondiente.
+	\item \textbf{paint.NET:} es un programa de escritorio\footnote{https://www.getpaint.net/} para la edición de imágenes de manera básica. Se ha usado para cambiar el tamaño de las imágenes creadas con Procreate o de las sacadas de internet.
+	\item \textbf{app.diagrams:} potente herramienta web\footnote{https://app.diagrams.net/} usada para crear casi todos los diagramas de este documento.
 \end{itemize}
+
+\subsection{Hardware}
+La herramienta hardware usada ha sido un ordenador de sobremesa cuyos componentes se describen en la tabla \ref{tab:tablacomponentes}.
+
+\begin{table}[H]
+\caption{Componentes del terminal de trabajo}
+\centering
+\label{tab:tablacomponentes}
+\begin{tabular}{@{}ll@{}}
+\hline
+\textbf{Componente}                                     & \textbf{Descripción} \\ \hline
+MSI GTX 1060 GAMING X 6GB GDDR5                         & Tarjeta gráfica      \\ \hline
+Toshiba P300 3.5" 1TB 7200RPM SATA 3                    & Disco duro           \\ \hline
+Kingston HyperX Fury Black DDR4 2400 PC4-19200 8GB CL15 & Memoria RAM          \\ \hline
+Intel Core i5-8400 2.8GHz BOX                           & Procesador           \\ \hline
+\end{tabular}
+\end{table}

@@ -1,0 +1,8 @@
+PWD C:\Users\lucia\Desktop\TFG\MisNotas\Memoria
+INPUT C:\Users\lucia\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT Conclusiones.tex
+OUTPUT Conclusiones.log
+INPUT C:\Users\lucia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\lucia\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+OUTPUT Conclusiones.pdf
+INPUT C:\Users\lucia\AppData\Local\MiKTeX\pdftex\config\pdftex.map

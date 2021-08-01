@@ -2363,12 +2363,20 @@
     <bcf:citekey order="14">apachepoi</bcf:citekey>
     <bcf:citekey order="15">jfreechart</bcf:citekey>
     <bcf:citekey order="16">git</bcf:citekey>
-    <bcf:citekey order="17">balsamiq</bcf:citekey>
-    <bcf:citekey order="18">overleaf</bcf:citekey>
-    <bcf:citekey order="19">disquete</bcf:citekey>
-    <bcf:citekey order="20">excelicon</bcf:citekey>
-    <bcf:citekey order="21">iconsforfree</bcf:citekey>
-    <bcf:citekey order="22">hashmap</bcf:citekey>
+    <bcf:citekey order="17">githubreleases</bcf:citekey>
+    <bcf:citekey order="18">balsamiq</bcf:citekey>
+    <bcf:citekey order="19">texmaker</bcf:citekey>
+    <bcf:citekey order="20">overleaf</bcf:citekey>
+    <bcf:citekey order="21">netbeans</bcf:citekey>
+    <bcf:citekey order="22">procreate</bcf:citekey>
+    <bcf:citekey order="23">staruml</bcf:citekey>
+    <bcf:citekey order="24">mysql</bcf:citekey>
+    <bcf:citekey order="25">hashmap</bcf:citekey>
+    <bcf:citekey order="26">disquete</bcf:citekey>
+    <bcf:citekey order="27">excelicon</bcf:citekey>
+    <bcf:citekey order="28">iconsforfree</bcf:citekey>
+    <bcf:citekey order="29">sus</bcf:citekey>
+    <bcf:citekey order="30">tam</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
